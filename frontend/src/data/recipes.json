@@ -1,0 +1,79 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Tacos de Pollo",
+      "description": "Deliciosos tacos de pollo con cebolla y cilantro",
+      "ingredients": [4, 2, 9, 11, 12],
+      "steps": [
+        "Cocinar el pollo y desmenuzarlo",
+        "Picar cebolla y cilantro",
+        "Calentar tortillas",
+        "Armar tacos y servir con limón"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/tacos-pollo.jpg"
+    },
+    {
+      "id": 2, 
+      "name": "Arroz Rojo",
+      "description": "Arroz rojo tradicional mexicano",
+      "ingredients": [5, 1, 2, 3, 12],
+      "steps": [
+        "Sofreír cebolla y ajo",
+        "Agregar tomate picado",
+        "Añadir arroz y dorar",
+        "Cocinar con agua hasta que absorba"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/arroz-rojo.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Huevos Revueltos",
+      "description": "Huevos revueltos con cebolla y chile",
+      "ingredients": [7, 2, 12, 8],
+      "steps": [
+        "Picar cebolla y chile",
+        "Batir los huevos",
+        "Sofreír cebolla y chile",
+        "Agregar huevos y revolver"
+      ],
+      "prepTime": 10,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevos-revueltos.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Guacamole",
+      "description": "Guacamole fresco con limón y chile",
+      "ingredients": [10, 2, 11, 12, 1],
+      "steps": [
+        "Machacar aguacate",
+        "Picar cebolla, tomate y chile",
+        "Mezclar todo con limón",
+        "Servir inmediatamente"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil", 
+      "image": "/images/recipes/guacamole.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Enfrijoladas",
+      "description": "Tortillas bañadas en salsa de frijol",
+      "ingredients": [9, 6, 2, 3, 8],
+      "steps": [
+        "Preparar salsa de frijol",
+        "Calentar tortillas",
+        "Bañar tortillas en salsa",
+        "Servir con queso y cebolla"
+      ],
+      "prepTime": 25,
+      "difficulty": "medio",
+      "image": "/images/recipes/enfrijoladas.jpg"
+    }
+  ]
+}

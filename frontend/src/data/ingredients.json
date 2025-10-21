@@ -1,0 +1,94 @@
+{
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Tomate",
+      "category": "vegetales",
+      "emoji": "🍅"
+    },
+    {
+      "id": 2,
+      "name": "Cebolla",
+      "category": "vegetales", 
+      "emoji": "🧅"
+    },
+    {
+      "id": 3,
+      "name": "Ajo",
+      "category": "vegetales",
+      "emoji": "🧄"
+    },
+    {
+      "id": 4, 
+      "name": "Pollo",
+      "category": "carnes",
+      "emoji": "🍗"
+    },
+    {
+      "id": 5,
+      "name": "Arroz",
+      "category": "granos",
+      "emoji": "🍚"
+    },
+    {
+      "id": 6,
+      "name": "Frijol",
+      "category": "legumbres",
+      "emoji": "🫘"
+    },
+    {
+      "id": 7,
+      "name": "Huevo",
+      "category": "lacteos-huevos",
+      "emoji": "🥚"
+    },
+    {
+      "id": 8,
+      "name": "Queso",
+      "category": "lacteos-huevos", 
+      "emoji": "🧀"
+    },
+    {
+      "id": 9,
+      "name": "Tortilla",
+      "category": "granos",
+      "emoji": "🌮"
+    },
+    {
+      "id": 10,
+      "name": "Aguacate",
+      "category": "frutas",
+      "emoji": "🥑"
+    },
+    {
+      "id": 11,
+      "name": "Limón",
+      "category": "frutas",
+      "emoji": "🍋"
+    },
+    {
+      "id": 12,
+      "name": "Chile",
+      "category": "vegetales",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 13,
+      "name": "Zanahoria",
+      "category": "vegetales",
+      "emoji": "🥕"
+    },
+    {
+      "id": 14,
+      "name": "Papa",
+      "category": "vegetales", 
+      "emoji": "🥔"
+    },
+    {
+      "id": 15,
+      "name": "Pimiento",
+      "category": "vegetales",
+      "emoji": "🫑"
+    }
+  ]
+}
