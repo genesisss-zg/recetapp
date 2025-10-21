@@ -3,6 +3,8 @@ import { Search, X, Plus } from 'lucide-react';
 import { useIngredients } from '../../hooks/useIngredients';
 import { useRecipes } from '../../hooks/useRecipes';
 import RecipeResults from '../recipes/RecipeResults';
+import RecipeModal from '../recipes/RecipeModal';
+import RecipeFilters from '../recipes/RecipeFilters';
 
 export default function IngredientSearch() {
   const {
@@ -15,9 +17,12 @@ export default function IngredientSearch() {
     getSelectedIngredientIds
   } = useIngredients();
 
-  const { matchedRecipes, findMatchingRecipes } = useRecipes();
+  // ✅ AGREGA updateFilters AQUÍ
+  const { matchedRecipes, findMatchingRecipes, updateFilters } = useRecipes();
 
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [selectedRecipe, setSelectedRecipe] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const searchRef = useRef(null);
 
   // Buscar recetas cuando cambien los ingredientes seleccionados
@@ -59,6 +64,16 @@ export default function IngredientSearch() {
   const handleSearchRecipes = () => {
     const selectedIds = getSelectedIngredientIds();
     findMatchingRecipes(selectedIds);
+  };
+
+  const handleRecipeClick = (recipe) => {
+    setSelectedRecipe(recipe);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedRecipe(null);
   };
 
   return (
@@ -105,7 +120,7 @@ export default function IngredientSearch() {
 
       {/* Ingredientes seleccionados */}
       {selectedIngredients.length > 0 && (
-        <div className="mt-6">
+        <div className="mt-6 py-3">
           <h3 className="text-lg font-semibold text-gray-800 mb-3">
             Tus ingredientes ({selectedIngredients.length}):
           </h3>
@@ -131,13 +146,26 @@ export default function IngredientSearch() {
         </div>
       )}
 
+      {/* ✅ FILTROS - AHORA SÍ FUNCIONA */}
+      {matchedRecipes.length > 0 && (
+        <RecipeFilters onFiltersChange={updateFilters} />
+      )}
+
       {/* Resultados de recetas */}
       <div className="mt-8">
         <RecipeResults 
           recipes={matchedRecipes} 
           selectedIngredients={selectedIngredients}
+          onRecipeClick={handleRecipeClick}
         />
       </div>
+
+      {/* Modal de receta */}
+      <RecipeModal
+        recipe={selectedRecipe}
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
     </div>
   );
 }

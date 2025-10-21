@@ -89,6 +89,126 @@
       "name": "Pimiento",
       "category": "vegetales",
       "emoji": "🫑"
+    },
+    {
+      "id": 16,
+      "name": "Carne molida",
+      "category": "carnes",
+      "emoji": "🥩"
+    },
+    {
+      "id": 17,
+      "name": "Pescado",
+      "category": "pescados-mariscos",
+      "emoji": "🐟"
+    },
+    {
+      "id": 18,
+      "name": "Lechuga",
+      "category": "vegetales",
+      "emoji": "🥬"
+    },
+    {
+      "id": 19,
+      "name": "Tomate verde",
+      "category": "vegetales",
+      "emoji": "🍏"
+    },
+    {
+      "id": 20,
+      "name": "Crema",
+      "category": "lacteos-huevos",
+      "emoji": "🥛"
+    },
+    {
+      "id": 21,
+      "name": "Elote",
+      "category": "vegetales",
+      "emoji": "🌽"
+    },
+    {
+      "id": 22,
+      "name": "Calabaza",
+      "category": "vegetales",
+      "emoji": "🎃"
+    },
+    {
+      "id": 23,
+      "name": "Chicharo",
+      "category": "vegetales",
+      "emoji": "🫛"
+    },
+    {
+      "id": 24,
+      "name": "Pasta",
+      "category": "granos",
+      "emoji": "🍝"
+    },
+    {
+      "id": 25,
+      "name": "Pan",
+      "category": "granos",
+      "emoji": "🍞"
+    },
+    {
+      "id": 26,
+      "name": "Leche",
+      "category": "lacteos-huevos",
+      "emoji": "🥛"
+    },
+    {
+      "id": 27,
+      "name": "Mantequilla",
+      "category": "lacteos-huevos",
+      "emoji": "🧈"
+    },
+    {
+      "id": 28,
+      "name": "Aceite",
+      "category": "aceites-condimentos",
+      "emoji": "🫒"
+    },
+    {
+      "id": 29,
+      "name": "Vinagre",
+      "category": "aceites-condimentos",
+      "emoji": "🍶"
+    },
+    {
+      "id": 30,
+      "name": "Sal",
+      "category": "aceites-condimentos",
+      "emoji": "🧂"
+    },
+    {
+      "id": 31,
+      "name": "Pimienta",
+      "category": "aceites-condimentos",
+      "emoji": "⚫"
+    },
+    {
+      "id": 32,
+      "name": "Cilantro",
+      "category": "hierbas-especias",
+      "emoji": "🌿"
+    },
+    {
+      "id": 33,
+      "name": "Perejil",
+      "category": "hierbas-especias",
+      "emoji": "🌱"
+    },
+    {
+      "id": 34,
+      "name": "Canela",
+      "category": "hierbas-especias",
+      "emoji": "🟤"
+    },
+    {
+      "id": 35,
+      "name": "Plátano",
+      "category": "frutas",
+      "emoji": "🍌"
     }
   ]
 }

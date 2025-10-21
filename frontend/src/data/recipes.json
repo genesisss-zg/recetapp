@@ -4,12 +4,14 @@
       "id": 1,
       "name": "Tacos de Pollo",
       "description": "Deliciosos tacos de pollo con cebolla y cilantro",
-      "ingredients": [4, 2, 9, 11, 12],
+      "category": "mexicana",
+      "ingredients": [4, 2, 9, 11, 12, 32],
       "steps": [
         "Cocinar el pollo y desmenuzarlo",
-        "Picar cebolla y cilantro",
-        "Calentar tortillas",
-        "Armar tacos y servir con limón"
+        "Picar cebolla y cilantro finamente",
+        "Calentar tortillas en comal",
+        "Armar tacos con pollo, cebolla y cilantro",
+        "Servir con limón y salsa al gusto"
       ],
       "prepTime": 20,
       "difficulty": "fácil",
@@ -19,12 +21,14 @@
       "id": 2, 
       "name": "Arroz Rojo",
       "description": "Arroz rojo tradicional mexicano",
-      "ingredients": [5, 1, 2, 3, 12],
+      "category": "guarniciones",
+      "ingredients": [5, 1, 2, 3, 12, 28, 30],
       "steps": [
-        "Sofreír cebolla y ajo",
-        "Agregar tomate picado",
-        "Añadir arroz y dorar",
-        "Cocinar con agua hasta que absorba"
+        "Licuar tomate con cebolla y ajo",
+        "Sofreír la salsa en aceite caliente",
+        "Añadir arroz y dorar por 5 minutos",
+        "Agregar agua y sal al gusto",
+        "Cocinar a fuego bajo por 20 minutos"
       ],
       "prepTime": 30,
       "difficulty": "medio",
@@ -34,12 +38,14 @@
       "id": 3,
       "name": "Huevos Revueltos",
       "description": "Huevos revueltos con cebolla y chile",
-      "ingredients": [7, 2, 12, 8],
+      "category": "desayuno",
+      "ingredients": [7, 2, 12, 8, 28, 30],
       "steps": [
-        "Picar cebolla y chile",
-        "Batir los huevos",
-        "Sofreír cebolla y chile",
-        "Agregar huevos y revolver"
+        "Batir los huevos con sal",
+        "Picar cebolla y chile finamente",
+        "Sofreír cebolla y chile en mantequilla",
+        "Agregar huevos y revolver constantemente",
+        "Incorporar queso al final y servir"
       ],
       "prepTime": 10,
       "difficulty": "fácil",
@@ -49,12 +55,14 @@
       "id": 4,
       "name": "Guacamole",
       "description": "Guacamole fresco con limón y chile",
-      "ingredients": [10, 2, 11, 12, 1],
+      "category": "aperitivos",
+      "ingredients": [10, 2, 11, 12, 1, 32, 30],
       "steps": [
-        "Machacar aguacate",
+        "Machacar aguacate en un molcajete",
         "Picar cebolla, tomate y chile",
-        "Mezclar todo con limón",
-        "Servir inmediatamente"
+        "Mezclar todo con jugo de limón",
+        "Agregar cilantro y sal al gusto",
+        "Servir inmediatamente con totopos"
       ],
       "prepTime": 15,
       "difficulty": "fácil", 
@@ -64,16 +72,188 @@
       "id": 5,
       "name": "Enfrijoladas",
       "description": "Tortillas bañadas en salsa de frijol",
-      "ingredients": [9, 6, 2, 3, 8],
+      "category": "mexicana",
+      "ingredients": [9, 6, 2, 3, 8, 20, 28],
       "steps": [
-        "Preparar salsa de frijol",
-        "Calentar tortillas",
-        "Bañar tortillas en salsa",
-        "Servir con queso y cebolla"
+        "Preparar salsa de frijol licuada",
+        "Calentar tortillas ligeramente",
+        "Bañar tortillas en salsa caliente",
+        "Doblar en forma de enfrijolada",
+        "Servir con crema, queso y cebolla"
       ],
       "prepTime": 25,
       "difficulty": "medio",
       "image": "/images/recipes/enfrijoladas.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sopa de Verduras",
+      "description": "Sopa nutritiva con verduras de temporada",
+      "category": "sopas",
+      "ingredients": [13, 14, 15, 2, 3, 1, 32, 30, 31],
+      "steps": [
+        "Picar todas las verduras en cubos",
+        "Sofreír cebolla y ajo en aceite",
+        "Agregar verduras y saltear 5 min",
+        "Cubrir con agua y cocinar 20 min",
+        "Sazonar con sal, pimienta y cilantro"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/sopa-verduras.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pescado a la Plancha",
+      "description": "Pescado fresco cocinado a la plancha",
+      "category": "pescados",
+      "ingredients": [17, 28, 11, 30, 31, 33],
+      "steps": [
+        "Sazonar el pescado con sal y pimienta",
+        "Calentar plancha con aceite",
+        "Cocinar pescado 4 min por lado",
+        "Rociar con jugo de limón",
+        "Decorar con perejil fresco"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/pescado-plancha.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Spaghetti con Salsa Roja",
+      "description": "Pasta con salsa de tomate casera",
+      "category": "italiana",
+      "ingredients": [24, 1, 2, 3, 28, 30, 31, 33],
+      "steps": [
+        "Cocinar spaghetti en agua con sal",
+        "Preparar salsa con tomate, ajo y cebolla",
+        "Cocinar salsa por 15 minutos",
+        "Mezclar pasta con salsa caliente",
+        "Decorar con perejil y servir"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/spaghetti-rojo.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ensalada César",
+      "description": "Ensalada fresca con aderezo cremoso",
+      "category": "ensaladas",
+      "ingredients": [18, 8, 25, 28, 11, 30, 31],
+      "steps": [
+        "Lavar y desinfectar lechuga",
+        "Preparar aderezo con los ingredientes",
+        "Tostar pan para los crutones",
+        "Mezclar lechuga con aderezo",
+        "Agregar queso parmesano y crutones"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/ensalada-cesar.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Chilaquiles Rojos",
+      "description": "Totopos bañados en salsa roja",
+      "category": "mexicana",
+      "ingredients": [9, 19, 2, 3, 8, 20, 10, 7],
+      "steps": [
+        "Preparar salsa de tomate verde",
+        "Freír o tostar las tortillas",
+        "Bañar totopos en salsa caliente",
+        "Servir con crema, queso y cebolla",
+        "Acompañar con aguacate y huevo"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/chilaquiles-rojos.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Pollo a la Naranja",
+      "description": "Pollo en salsa agridulce de naranja",
+      "category": "oriental",
+      "ingredients": [4, 35, 2, 28, 30, 11, 31],
+      "steps": [
+        "Cortar pollo en cubos y sazonar",
+        "Sofreír pollo hasta dorar",
+        "Preparar salsa con jugo de naranja",
+        "Cocinar pollo en salsa por 10 min",
+        "Servir con arroz blanco"
+      ],
+      "prepTime": 40,
+      "difficulty": "medio",
+      "image": "/images/recipes/pollo-naranja.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Calabazas Rellenas",
+      "description": "Calabazas rellenas de verduras y queso",
+      "category": "vegetariana",
+      "ingredients": [22, 13, 15, 2, 8, 28, 30, 31],
+      "steps": [
+        "Cocinar calabazas hasta tiernas",
+        "Sofreír verduras para el relleno",
+        "Vaciar calabazas y rellenar",
+        "Gratinar con queso por 10 min",
+        "Servir caliente como plato principal"
+      ],
+      "prepTime": 45,
+      "difficulty": "medio",
+      "image": "/images/recipes/calabazas-rellenas.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Sándwich Club",
+      "description": "Sándwich triple con pollo y verduras",
+      "category": "sandwiches",
+      "ingredients": [25, 4, 18, 1, 8, 28, 30],
+      "steps": [
+        "Tostar el pan ligeramente",
+        "Cocinar y rebanar el pollo",
+        "Armar capas con todos los ingredientes",
+        "Cortar en triángulos y asegurar",
+        "Servir con papas fritas o ensalada"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/sandwich-club.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Flan de Vainilla",
+      "description": "Postre cremoso de vainilla con caramelo",
+      "category": "postres",
+      "ingredients": [7, 26, 35, 30, 34],
+      "steps": [
+        "Preparar caramelo en el molde",
+        "Batir huevos con leche condensada",
+        "Agregar leche y esencia de vainilla",
+        "Verter en molde y cocer a baño María",
+        "Refrigerar 4 horas antes de servir"
+      ],
+      "prepTime": 60,
+      "difficulty": "difícil",
+      "image": "/images/recipes/flan-vainilla.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Esquites",
+      "description": "Granos de elote con mayonesa y queso",
+      "category": "botanas",
+      "ingredients": [21, 20, 8, 12, 11, 30],
+      "steps": [
+        "Cocer los granos de elote",
+        "Mezclar con mayonesa y crema",
+        "Agregar chile en polvo y sal",
+        "Espolvorear con queso cotija",
+        "Servir con jugo de limón"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/esquites.jpg"
     }
   ]
 }

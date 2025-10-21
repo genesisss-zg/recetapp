@@ -106,19 +106,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="bg-transparent py-2 rounded-xl"></section>
-
-        {/* Call to Action CON FONDO VERDE EXPLÍCITO */}
-        <section className="bg-secondary text-white py-16 rounded-xl">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4">¿Listo para comenzar?</h2>
-            <p className="text-xl mb-8">Únete a la comunidad que está transformando su forma de cocinar</p>
-            <button className="bg-warning text-gray-800 hover:bg-yellow-400 font-bold py-4 px-12 rounded-xl transition-colors text-lg">
-              Comenzar Ahora
-            </button>
-          </div>
-        </section>
-        
+        <section className="bg-transparent py-2 rounded-xl"></section>        
       </main>
     </div>
   );
