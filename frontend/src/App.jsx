@@ -15,9 +15,9 @@ function App() {
               
               {/* Columna izquierda - Solo texto */}
               <div className="flex-2 text-center lg:text-left leading-relaxed">
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 font-poppins py-1 leading-loose">
+                <h1 className="text-5xl md:text-7xl font-bold mb-2 font-poppins py-1 leading-loose">
                   Cocina Inteligente,
-                  <span className="text-warning block">Cero Desperdicio</span>
+                  <p className="text-warning block mt-2">Cero Desperdicio</p>
                 </h1>
                 <p className="text-xl md:text-2xl mb-4 max-w-2xl">
                   Transforma lo que tienes en tu refrigerador en deliciosas recetas
@@ -40,8 +40,8 @@ function App() {
           </div>
         </section>
 
-        {/* ✅ SECCIÓN SEPARADA PARA EL BUSCADOR Y RESULTADOS ✅ */}
-        <section className="max-w-7xl mx-auto px-4 py-12 -mt-8 relative z-10">
+        {/* SECCIÓN SEPARADA PARA EL BUSCADOR Y RESULTADOS */}
+        <section className="max-w-7xl mx-auto pt-14 pb-7 -mt-8 relative z-10">
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
             <div className="text-center mb-8">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-poppins mb-4">
@@ -58,7 +58,7 @@ function App() {
         </section>
 
         {/* ✅ Stats Section TRANSPARENTE - AHORA SÍ SE VERÁ ✅ */}
-        <section className="max-w-7xl mx-auto px-4 py-16">
+        <section className="max-w-7xl mx-auto pt-1 pb-8 ">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white/95 backdrop-blur-sm border border-white/30 rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
               <Leaf className="mx-auto text-secondary mb-4" size={48} />
