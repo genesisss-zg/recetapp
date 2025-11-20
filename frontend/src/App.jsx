@@ -39,7 +39,6 @@ function App() {
             </div>
           </div>
         </section>
-
         {/* SECCIÓN SEPARADA PARA EL BUSCADOR Y RESULTADOS */}
         <section className="max-w-7xl mx-auto pt-14 pb-7 -mt-8 relative z-10">
           <div className="bg-white rounded-2xl p-8 shadow-2xl">

@@ -1,0 +1,55 @@
+recetapp/
+├─ desktop.ini
+├─ .gitignore
+├─ backend/
+│  ├─ package.json
+│  ├─ package-lock.json
+│  └─ src/
+│     ├─ server.js
+│     ├─ config/
+│     │  └─ database.js
+│     ├─ controllers/
+│     │  └─ authController.js
+│     ├─ middleware/
+│     │  └─ auth.js
+│     ├─ models/
+│     │  └─ User.js
+│     └─ routes/
+│        └─ auth.js
+├─ docs/
+├─ frontend/
+│  ├─ .gitignore
+│  ├─ README.md
+│  ├─ index.html
+│  ├─ package.json
+│  ├─ package-lock.json
+│  ├─ vite.config.js
+│  ├─ tailwind.config.js
+│  ├─ postcss.config.js
+│  ├─ eslint.config.js
+│  └─ src/
+│     ├─ main.jsx
+│     ├─ App.jsx
+│     ├─ App.css
+│     ├─ index.css
+│     ├─ assets/
+│     │  └─ react.svg
+│     ├─ components/
+│     │  ├─ auth/
+│     │  │  ├─ Login.jsx
+│     │  │  └─ Register.jsx
+│     │  ├─ common/
+│     │  │  └─ Header.jsx
+│     │  ├─ ingredients/
+│     │  │  └─ IngredientSearch.jsx
+│     │  └─ recipes/
+│     │     ├─ RecipeFilters.jsx
+│     │     ├─ RecipeModal.jsx
+│     │     └─ RecipeResults.jsx
+│     ├─ data/
+│     │  ├─ ingredients.json
+│     │  └─ recipes.json
+│     └─ hooks/
+│        ├─ useAuth.js
+│        ├─ useIngredients.js
+│        └─ useRecipes.js

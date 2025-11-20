@@ -1,11 +1,12 @@
-import { Filter, Clock, ChefHat } from 'lucide-react';
+import { Filter, Clock, ChefHat, Target } from 'lucide-react';
 import { useState } from 'react';
 
 export default function RecipeFilters({ onFiltersChange }) {
   const [filters, setFilters] = useState({
     category: 'todas',
     maxTime: 120,
-    difficulty: 'todas'
+    difficulty: 'todas',
+    minMatchPercentage: 50 // ✅ NUEVO FILTRO - porcentaje mínimo
   });
 
   const categories = [
@@ -32,6 +33,16 @@ export default function RecipeFilters({ onFiltersChange }) {
     'difícil'
   ];
 
+  // ✅ OPCIONES DE PORCENTAJE DE COINCIDENCIA
+  const matchPercentages = [
+    { value: 0, label: 'Cualquier coincidencia' },
+    { value: 30, label: '30% o más' },
+    { value: 50, label: '50% o más' },
+    { value: 70, label: '70% o más' },
+    { value: 90, label: '90% o más' },
+    { value: 100, label: '100% (Puedo hacerla)' }
+  ];
+
   const handleFilterChange = (key, value) => {
     const newFilters = { ...filters, [key]: value };
     setFilters(newFilters);
@@ -47,7 +58,28 @@ export default function RecipeFilters({ onFiltersChange }) {
         </h3>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {/* ✅ CAMBIAMOS A grid-cols-4 PARA LOS 4 FILTROS */}
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        
+        {/* ✅ NUEVO FILTRO: Porcentaje mínimo de coincidencia */}
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2 flex items-center gap-2">
+            <Target size={16} />
+            Coincidencia mínima
+          </label>
+          <select
+            value={filters.minMatchPercentage}
+            onChange={(e) => handleFilterChange('minMatchPercentage', parseInt(e.target.value))}
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
+          >
+            {matchPercentages.map(option => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </div>
+
         {/* Filtro por categoría */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">

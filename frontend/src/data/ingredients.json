@@ -209,6 +209,690 @@
       "name": "Plátano",
       "category": "frutas",
       "emoji": "🍌"
+    },
+    {
+      "id": 36,
+      "name": "Azúcar",
+      "category": "endulzantes",
+      "emoji": "🍚"
+    },
+    {
+      "id": 37,
+      "name": "Azúcar morena",
+      "category": "endulzantes", 
+      "emoji": "🟤"
+    },
+    {
+      "id": 38,
+      "name": "Miel",
+      "category": "endulzantes",
+      "emoji": "🍯"
+    },
+    {
+      "id": 39,
+      "name": "Leche condensada",
+      "category": "lacteos-huevos",
+      "emoji": "🥫"
+    },
+    {
+      "id": 40,
+      "name": "Leche evaporada",
+      "category": "lacteos-huevos",
+      "emoji": "🥛"
+    },
+    {
+      "id": 41,
+      "name": "Queso crema",
+      "category": "lacteos-huevos",
+      "emoji": "🧀"
+    },
+    {
+      "id": 42,
+      "name": "Queso cotija",
+      "category": "lacteos-huevos",
+      "emoji": "🧀"
+    },
+    {
+      "id": 43,
+      "name": "Queso panela",
+      "category": "lacteos-huevos",
+      "emoji": "🧀"
+    },
+    {
+      "id": 44,
+      "name": "Yogur",
+      "category": "lacteos-huevos",
+      "emoji": "🥛"
+    },
+    {
+      "id": 45,
+      "name": "Nata",
+      "category": "lacteos-huevos",
+      "emoji": "🥛"
+    },
+    {
+      "id": 46,
+      "name": "Harina",
+      "category": "granos",
+      "emoji": "🌾"
+    },
+    {
+      "id": 47,
+      "name": "Harina de trigo",
+      "category": "granos",
+      "emoji": "🌾"
+    },
+    {
+      "id": 48,
+      "name": "Maizena",
+      "category": "granos",
+      "emoji": "🌽"
+    },
+    {
+      "id": 49,
+      "name": "Avena",
+      "category": "granos",
+      "emoji": "🌾"
+    },
+    {
+      "id": 50,
+      "name": "Cereal",
+      "category": "granos",
+      "emoji": "🥣"
+    },
+    {
+      "id": 51,
+      "name": "Aceite de oliva",
+      "category": "aceites-condimentos",
+      "emoji": "🫒"
+    },
+    {
+      "id": 52,
+      "name": "Salsa de soya",
+      "category": "aceites-condimentos",
+      "emoji": "🍶"
+    },
+    {
+      "id": 53,
+      "name": "Salsa inglesa",
+      "category": "aceites-condimentos",
+      "emoji": "🍶"
+    },
+    {
+      "id": 54,
+      "name": "Mostaza",
+      "category": "aceites-condimentos",
+      "emoji": "🟡"
+    },
+    {
+      "id": 55,
+      "name": "Mayonesa",
+      "category": "aceites-condimentos",
+      "emoji": "🟡"
+    },
+    {
+      "id": 56,
+      "name": "Catsup",
+      "category": "aceites-condimentos",
+      "emoji": "🍅"
+    },
+    {
+      "id": 57,
+      "name": "Chile en polvo",
+      "category": "aceites-condimentos",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 58,
+      "name": "Orégano",
+      "category": "hierbas-especias",
+      "emoji": "🌿"
+    },
+    {
+      "id": 59,
+      "name": "Laurel",
+      "category": "hierbas-especias",
+      "emoji": "🍃"
+    },
+    {
+      "id": 60,
+      "name": "Tomillo",
+      "category": "hierbas-especias",
+      "emoji": "🌿"
+    },
+    {
+      "id": 61,
+      "name": "Romero",
+      "category": "hierbas-especias",
+      "emoji": "🌿"
+    },
+    {
+      "id": 62,
+      "name": "Albahaca",
+      "category": "hierbas-especias",
+      "emoji": "🌿"
+    },
+    {
+      "id": 63,
+      "name": "Menta",
+      "category": "hierbas-especias",
+      "emoji": "🌿"
+    },
+    {
+      "id": 64,
+      "name": "Clavo",
+      "category": "hierbas-especias",
+      "emoji": "🔘"
+    },
+    {
+      "id": 65,
+      "name": "Comino",
+      "category": "hierbas-especias",
+      "emoji": "🟤"
+    },
+    {
+      "id": 66,
+      "name": "Nuez moscada",
+      "category": "hierbas-especias",
+      "emoji": "🌰"
+    },
+    {
+      "id": 67,
+      "name": "Jengibre",
+      "category": "hierbas-especias",
+      "emoji": "🟤"
+    },
+    {
+      "id": 68,
+      "name": "Cúrcuma",
+      "category": "hierbas-especias",
+      "emoji": "🟡"
+    },
+    {
+      "id": 69,
+      "name": "Chocolate",
+      "category": "endulzantes",
+      "emoji": "🍫"
+    },
+    {
+      "id": 70,
+      "name": "Cacao",
+      "category": "endulzantes",
+      "emoji": "🍫"
+    },
+    {
+      "id": 71,
+      "name": "Vainilla",
+      "category": "endulzantes",
+      "emoji": "🌱"
+    },
+    {
+      "id": 72,
+      "name": "Café",
+      "category": "bebidas",
+      "emoji": "☕"
+    },
+    {
+      "id": 73,
+      "name": "Té",
+      "category": "bebidas",
+      "emoji": "🍵"
+    },
+    {
+      "id": 74,
+      "name": "Cerveza",
+      "category": "bebidas",
+      "emoji": "🍺"
+    },
+    {
+      "id": 75,
+      "name": "Vino",
+      "category": "bebidas",
+      "emoji": "🍷"
+    },
+    {
+      "id": 76,
+      "name": "Piña",
+      "category": "frutas",
+      "emoji": "🍍"
+    },
+    {
+      "id": 77,
+      "name": "Fresa",
+      "category": "frutas",
+      "emoji": "🍓"
+    },
+    {
+      "id": 78,
+      "name": "Mango",
+      "category": "frutas",
+      "emoji": "🥭"
+    },
+    {
+      "id": 79,
+      "name": "Manzana",
+      "category": "frutas",
+      "emoji": "🍎"
+    },
+    {
+      "id": 80,
+      "name": "Naranja",
+      "category": "frutas",
+      "emoji": "🍊"
+    },
+    {
+      "id": 81,
+      "name": "Uva",
+      "category": "frutas",
+      "emoji": "🍇"
+    },
+    {
+      "id": 82,
+      "name": "Melón",
+      "category": "frutas",
+      "emoji": "🍈"
+    },
+    {
+      "id": 83,
+      "name": "Sandía",
+      "category": "frutas",
+      "emoji": "🍉"
+    },
+    {
+      "id": 84,
+      "name": "Coco",
+      "category": "frutas",
+      "emoji": "🥥"
+    },
+    {
+      "id": 85,
+      "name": "Pepino",
+      "category": "vegetales",
+      "emoji": "🥒"
+    },
+    {
+      "id": 86,
+      "name": "Brócoli",
+      "category": "vegetales",
+      "emoji": "🥦"
+    },
+    {
+      "id": 87,
+      "name": "Coliflor",
+      "category": "vegetales",
+      "emoji": "🥦"
+    },
+    {
+      "id": 88,
+      "name": "Espinaca",
+      "category": "vegetales",
+      "emoji": "🍃"
+    },
+    {
+      "id": 89,
+      "name": "Apio",
+      "category": "vegetales",
+      "emoji": "🥬"
+    },
+    {
+      "id": 90,
+      "name": "Champiñón",
+      "category": "vegetales",
+      "emoji": "🍄"
+    },
+    {
+      "id": 91,
+      "name": "Camarón",
+      "category": "pescados-mariscos",
+      "emoji": "🦐"
+    },
+    {
+      "id": 92,
+      "name": "Pulpo",
+      "category": "pescados-mariscos",
+      "emoji": "🐙"
+    },
+    {
+      "id": 93,
+      "name": "Calamar",
+      "category": "pescados-mariscos",
+      "emoji": "🦑"
+    },
+    {
+      "id": 94,
+      "name": "Atún",
+      "category": "pescados-mariscos",
+      "emoji": "🐟"
+    },
+    {
+      "id": 95,
+      "name": "Salmón",
+      "category": "pescados-mariscos",
+      "emoji": "🐟"
+    },
+    {
+      "id": 96,
+      "name": "Cerdo",
+      "category": "carnes",
+      "emoji": "🐖"
+    },
+    {
+      "id": 97,
+      "name": "Res",
+      "category": "carnes",
+      "emoji": "🥩"
+    },
+    {
+      "id": 98,
+      "name": "Pavo",
+      "category": "carnes",
+      "emoji": "🦃"
+    },
+    {
+      "id": 99,
+      "name": "Tocino",
+      "category": "carnes",
+      "emoji": "🥓"
+    },
+    {
+      "id": 100,
+      "name": "Jamón",
+      "category": "carnes",
+      "emoji": "🍖"
+    },
+    {
+      "id": 101,
+      "name": "Achiote",
+      "category": "hierbas-especias",
+      "emoji": "🔴"
+    },
+    {
+      "id": 102,
+      "name": "Calabacitas",
+      "category": "vegetales",
+      "emoji": "🥒"
+    },
+    {
+      "id": 103,
+      "name": "Carne para asar",
+      "category": "carnes",
+      "emoji": "🥩"
+    },
+    {
+      "id": 104,
+      "name": "Carne para birria",
+      "category": "carnes",
+      "emoji": "🍖"
+    },
+    {
+      "id": 105,
+      "name": "Cebolla morada",
+      "category": "vegetales",
+      "emoji": "🧅"
+    },
+    {
+      "id": 106,
+      "name": "Chayote",
+      "category": "vegetales",
+      "emoji": "🥒"
+    },
+    {
+      "id": 107,
+      "name": "Chile ancho",
+      "category": "vegetales",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 108,
+      "name": "Chile chipotle",
+      "category": "vegetales",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 109,
+      "name": "Chile colorado",
+      "category": "vegetales",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 110,
+      "name": "Chile guajillo",
+      "category": "vegetales",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 111,
+      "name": "Chile jalapeño",
+      "category": "vegetales",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 112,
+      "name": "Chile serrano",
+      "category": "vegetales",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 113,
+      "name": "Chile verde",
+      "category": "vegetales",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 114,
+      "name": "Chocolate para mole",
+      "category": "endulzantes",
+      "emoji": "🍫"
+    },
+    {
+      "id": 115,
+      "name": "Chorizo",
+      "category": "carnes",
+      "emoji": "🌭"
+    },
+    {
+      "id": 116,
+      "name": "Chicharrón prensado",
+      "category": "carnes",
+      "emoji": "🥓"
+    },
+    {
+      "id": 117,
+      "name": "Consomé de pollo",
+      "category": "aceites-condimentos",
+      "emoji": "🍗"
+    },
+    {
+      "id": 118,
+      "name": "Epazote",
+      "category": "hierbas-especias",
+      "emoji": "🌿"
+    },
+    {
+      "id": 119,
+      "name": "Flor de calabaza",
+      "category": "vegetales",
+      "emoji": "🌼"
+    },
+    {
+      "id": 120,
+      "name": "Frijoles de la olla",
+      "category": "legumbres",
+      "emoji": "🫘"
+    },
+    {
+      "id": 121,
+      "name": "Frijoles refritos",
+      "category": "legumbres",
+      "emoji": "🫘"
+    },
+    {
+      "id": 122,
+      "name": "Harina para hotcakes",
+      "category": "granos",
+      "emoji": "🥞"
+    },
+    {
+      "id": 123,
+      "name": "Harina de maíz",
+      "category": "granos",
+      "emoji": "🌽"
+    },
+    {
+      "id": 124,
+      "name": "Hojuelas de avena",
+      "category": "granos",
+      "emoji": "🌾"
+    },
+    {
+      "id": 125,
+      "name": "Hojas de plátano",
+      "category": "vegetales",
+      "emoji": "🍃"
+    },
+    {
+      "id": 126,
+      "name": "Huitlacoche",
+      "category": "vegetales",
+      "emoji": "🍄"
+    },
+    {
+      "id": 127,
+      "name": "Jitomate",
+      "category": "vegetales",
+      "emoji": "🍅"
+    },
+    {
+      "id": 128,
+      "name": "Manteca",
+      "category": "aceites-condimentos",
+      "emoji": "🧈"
+    },
+    {
+      "id": 129,
+      "name": "Masa de maíz",
+      "category": "granos",
+      "emoji": "🌽"
+    },
+    {
+      "id": 130,
+      "name": "Milanesa de res",
+      "category": "carnes",
+      "emoji": "🥩"
+    },
+    {
+      "id": 131,
+      "name": "Milanesa de pollo",
+      "category": "carnes",
+      "emoji": "🍗"
+    },
+    {
+      "id": 132,
+      "name": "Nopal",
+      "category": "vegetales",
+      "emoji": "🌵"
+    },
+    {
+      "id": 133,
+      "name": "Pan bolillo",
+      "category": "granos",
+      "emoji": "🍞"
+    },
+    {
+      "id": 134,
+      "name": "Pan telera",
+      "category": "granos",
+      "emoji": "🍞"
+    },
+    {
+      "id": 135,
+      "name": "Pan molido",
+      "category": "granos",
+      "emoji": "🍞"
+    },
+    {
+      "id": 136,
+      "name": "Pasta de mole",
+      "category": "aceites-condimentos",
+      "emoji": "🥘"
+    },
+    {
+      "id": 137,
+      "name": "Pepita de calabaza",
+      "category": "granos",
+      "emoji": "🎃"
+    },
+    {
+      "id": 138,
+      "name": "Pimiento morrón",
+      "category": "vegetales",
+      "emoji": "🫑"
+    },
+    {
+      "id": 139,
+      "name": "Plátano macho",
+      "category": "frutas",
+      "emoji": "🍌"
+    },
+    {
+      "id": 140,
+      "name": "Queso fresco",
+      "category": "lacteos-huevos",
+      "emoji": "🧀"
+    },
+    {
+      "id": 141,
+      "name": "Queso rallado",
+      "category": "lacteos-huevos",
+      "emoji": "🧀"
+    },
+    {
+      "id": 142,
+      "name": "Salsa roja",
+      "category": "aceites-condimentos",
+      "emoji": "🌶️"
+    },
+    {
+      "id": 143,
+      "name": "Salsa verde",
+      "category": "aceites-condimentos",
+      "emoji": "🍏"
+    },
+    {
+      "id": 144,
+      "name": "Salchicha",
+      "category": "carnes",
+      "emoji": "🌭"
+    },
+    {
+      "id": 145,
+      "name": "Tortillas de harina",
+      "category": "granos",
+      "emoji": "🫓"
+    },
+    {
+      "id": 146,
+      "name": "Totopos",
+      "category": "granos",
+      "emoji": "🌮"
+    },
+    {
+      "id": 147,
+      "name": "Agua",
+      "category": "bebidas",
+      "emoji": "💧"
+    },
+    {
+      "id": 148,
+      "name": "Caldo de pollo",
+      "category": "sopas",
+      "emoji": "🍗"
+    },
+    {
+      "id": 149,
+      "name": "Caldo de res",
+      "category": "sopas",
+      "emoji": "🥩"
     }
   ]
 }

@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import recipesData from '../data/recipes.json';
+import { useState, useEffect, useCallback } from 'react';
+import localRecipes from '../data/recipes.json';
 import ingredientsData from '../data/ingredients.json';
 
 export function useRecipes() {
@@ -9,12 +9,29 @@ export function useRecipes() {
   const [filters, setFilters] = useState({
     category: 'todas',
     maxTime: 120,
-    difficulty: 'todas'
+    difficulty: 'todas',
+    minMatchPercentage: 45
   });
+  const [isLoading, setIsLoading] = useState(false);
 
-  // Cargar recetas al inicio
+  // Cargar recetas al inicio - SIMPLIFICADO
   useEffect(() => {
-    setRecipes(recipesData.recipes);
+    const loadRecipes = async () => {
+      setIsLoading(true);
+      try {
+        console.log('🚀 Cargando recetas locales...');
+        // Usamos directamente las recetas del archivo JSON
+        setRecipes(localRecipes.recipes);
+        console.log('✅ Recetas cargadas exitosamente:', localRecipes.recipes.length);
+      } catch (error) {
+        console.error('❌ Error cargando recetas:', error);
+        setRecipes([]);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadRecipes();
   }, []);
 
   // Aplicar filtros cuando cambien
@@ -22,8 +39,15 @@ export function useRecipes() {
     applyFilters();
   }, [matchedRecipes, filters]);
 
-  const applyFilters = () => {
+  const applyFilters = useCallback(() => {
     let filtered = matchedRecipes;
+
+    // ✅ FILTRAR POR PORCENTAJE MÍNIMO
+    if (filters.minMatchPercentage > 0) {
+      filtered = filtered.filter(recipe => 
+        recipe.matchPercentage >= filters.minMatchPercentage
+      );
+    }
 
     // Filtrar por categoría
     if (filters.category !== 'todas') {
@@ -39,15 +63,11 @@ export function useRecipes() {
     }
 
     setFilteredRecipes(filtered);
-  };
+  }, [matchedRecipes, filters]);
 
-  // Encontrar recetas que coincidan con los ingredientes seleccionados
-  const findMatchingRecipes = (selectedIngredientIds) => {
-    if (selectedIngredientIds.length === 0) {
-      setMatchedRecipes([]);
-      setFilteredRecipes([]);
-      return;
-    }
+  // Función para matches locales
+  const calculateLocalMatches = useCallback((selectedIngredientIds) => {
+    if (selectedIngredientIds.length === 0) return [];
 
     const matches = recipes.map(recipe => {
       const recipeIngredientIds = recipe.ingredients;
@@ -70,11 +90,11 @@ export function useRecipes() {
       // Obtener información completa de ingredientes
       const matchingIngredientsInfo = matchingIngredients.map(ingId =>
         ingredientsData.ingredients.find(ing => ing.id === ingId)
-      );
+      ).filter(ing => ing !== undefined);
 
       const missingIngredientsInfo = missingIngredients.map(ingId =>
         ingredientsData.ingredients.find(ing => ing.id === ingId)
-      );
+      ).filter(ing => ing !== undefined);
 
       return {
         ...recipe,
@@ -86,12 +106,30 @@ export function useRecipes() {
     });
 
     // Ordenar por porcentaje de coincidencia (mayor a menor)
-    const sortedMatches = matches
+    return matches
       .filter(recipe => recipe.matchPercentage > 0)
       .sort((a, b) => b.matchPercentage - a.matchPercentage);
+  }, [recipes]);
 
-    setMatchedRecipes(sortedMatches);
-  };
+  // Encontrar recetas que coincidan con los ingredientes seleccionados
+  const findMatchingRecipes = useCallback((selectedIngredientIds) => {
+    if (selectedIngredientIds.length === 0) {
+      setMatchedRecipes([]);
+      setFilteredRecipes([]);
+      return;
+    }
+
+    setIsLoading(true);
+    
+    // Usamos setTimeout mínimo para no bloquear la UI
+    setTimeout(() => {
+      const matches = calculateLocalMatches(selectedIngredientIds);
+      setMatchedRecipes(matches);
+      setIsLoading(false);
+      console.log(`🎯 Encontradas ${matches.length} recetas locales`);
+    }, 10);
+
+  }, [calculateLocalMatches]);
 
   // Actualizar filtros
   const updateFilters = (newFilters) => {
@@ -107,6 +145,7 @@ export function useRecipes() {
     recipes,
     matchedRecipes: filteredRecipes,
     filters,
+    isLoading,
     findMatchingRecipes,
     updateFilters,
     getRecipeById

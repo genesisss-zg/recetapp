@@ -2,258 +2,2303 @@
   "recipes": [
     {
       "id": 1,
-      "name": "Tacos de Pollo",
-      "description": "Deliciosos tacos de pollo con cebolla y cilantro",
-      "category": "mexicana",
-      "ingredients": [4, 2, 9, 11, 12, 32],
-      "steps": [
-        "Cocinar el pollo y desmenuzarlo",
-        "Picar cebolla y cilantro finamente",
-        "Calentar tortillas en comal",
-        "Armar tacos con pollo, cebolla y cilantro",
-        "Servir con limón y salsa al gusto"
-      ],
-      "prepTime": 20,
-      "difficulty": "fácil",
-      "image": "/images/recipes/tacos-pollo.jpg"
-    },
-    {
-      "id": 2, 
-      "name": "Arroz Rojo",
-      "description": "Arroz rojo tradicional mexicano",
-      "category": "guarniciones",
-      "ingredients": [5, 1, 2, 3, 12, 28, 30],
-      "steps": [
-        "Licuar tomate con cebolla y ajo",
-        "Sofreír la salsa en aceite caliente",
-        "Añadir arroz y dorar por 5 minutos",
-        "Agregar agua y sal al gusto",
-        "Cocinar a fuego bajo por 20 minutos"
-      ],
-      "prepTime": 30,
-      "difficulty": "medio",
-      "image": "/images/recipes/arroz-rojo.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Huevos Revueltos",
-      "description": "Huevos revueltos con cebolla y chile",
+      "name": "Huevos Revueltos con Tomate",
+      "description": "Huevos revueltos con tomate fresco y cebolla",
       "category": "desayuno",
-      "ingredients": [7, 2, 12, 8, 28, 30],
+      "ingredients": [7, 1, 2, 28, 30, 31],
       "steps": [
-        "Batir los huevos con sal",
-        "Picar cebolla y chile finamente",
-        "Sofreír cebolla y chile en mantequilla",
-        "Agregar huevos y revolver constantemente",
-        "Incorporar queso al final y servir"
+        "Picar el tomate y la cebolla en cuadros pequeños",
+        "Calentar aceite en un sartén y sofreír la cebolla 2 minutos",
+        "Agregar el tomate y cocinar hasta que suelte jugo",
+        "Batir los huevos y verter sobre el tomate",
+        "Revolver constantemente hasta que estén cocidos",
+        "Salpimentar al gusto y servir caliente",
+        "Acompañar con tortillas o pan"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevos-tomate.jpg",
+      "servings": 2
+    },
+    {
+      "id": 2,
+      "name": "Huevos Estrellados",
+      "description": "Huevos fritos perfectos para cualquier comida",
+      "category": "desayuno",
+      "ingredients": [7, 28, 30],
+      "steps": [
+        "Calentar aceite en un sartén a fuego medio",
+        "Quebrar los huevos con cuidado directamente en el sartén",
+        "Cocinar hasta que las claras estén firmes",
+        "Para yemas líquidas: cocinar 2-3 minutos",
+        "Para yemas cocidas: tapar el sartén 1 minuto",
+        "Salar y servir inmediatamente",
+        "Ideal con frijoles o arroz"
       ],
       "prepTime": 10,
       "difficulty": "fácil",
-      "image": "/images/recipes/huevos-revueltos.jpg"
+      "image": "/images/recipes/huevos-estrellados.jpg",
+      "servings": 1
+    },
+    {
+      "id": 3,
+      "name": "Huevo con Frijoles",
+      "description": "Combinación clásica de huevo con frijoles refritos",
+      "category": "desayuno",
+      "ingredients": [7, 6, 9, 28, 30],
+      "steps": [
+        "Calentar los frijoles en una cazuela",
+        "En otro sartén, freír los huevos al gusto",
+        "Calentar las tortillas en comal",
+        "Servir los frijoles en un plato",
+        "Colocar los huevos fritos sobre los frijoles",
+        "Acompañar con tortillas calientes",
+        "Opcional: agregar queso fresco o salsa"
+      ],
+      "prepTime": 12,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevo-frijoles.jpg",
+      "servings": 2
     },
     {
       "id": 4,
-      "name": "Guacamole",
-      "description": "Guacamole fresco con limón y chile",
-      "category": "aperitivos",
-      "ingredients": [10, 2, 11, 12, 1, 32, 30],
+      "name": "Huevos con Papas",
+      "description": "Huevos revueltos con papas doradas",
+      "category": "desayuno",
+      "ingredients": [7, 14, 2, 28, 30, 31],
       "steps": [
-        "Machacar aguacate en un molcajete",
-        "Picar cebolla, tomate y chile",
-        "Mezclar todo con jugo de limón",
-        "Agregar cilantro y sal al gusto",
-        "Servir inmediatamente con totopos"
+        "Pelar y cortar las papas en cubos pequeños",
+        "Freír las papas en aceite hasta que estén doradas",
+        "Agregar cebolla picada y sofreír 2 minutos",
+        "Batir los huevos y verter sobre las papas",
+        "Revolver hasta que los huevos estén cocidos",
+        "Salpimentar y servir caliente",
+        "Excelente con salsa verde o roja"
       ],
-      "prepTime": 15,
-      "difficulty": "fácil", 
-      "image": "/images/recipes/guacamole.jpg"
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevos-papas.jpg",
+      "servings": 3
     },
     {
       "id": 5,
-      "name": "Enfrijoladas",
-      "description": "Tortillas bañadas en salsa de frijol",
-      "category": "mexicana",
-      "ingredients": [9, 6, 2, 3, 8, 20, 28],
+      "name": "Tortillas de Harina con Queso",
+      "description": "Tortillas de harina rellenas de queso derretido",
+      "category": "desayuno",
+      "ingredients": [9, 8, 28],
       "steps": [
-        "Preparar salsa de frijol licuada",
-        "Calentar tortillas ligeramente",
-        "Bañar tortillas en salsa caliente",
-        "Doblar en forma de enfrijolada",
-        "Servir con crema, queso y cebolla"
+        "Calentar un comal o sartén a fuego medio",
+        "Colocar una tortilla y espolvorear queso rallado",
+        "Poner otra tortilla encima como sandwich",
+        "Dorar por un lado y voltear con cuidado",
+        "Cocinar hasta que el queso se derrita",
+        "Cortar en triángulos y servir caliente",
+        "Perfecto con café o chocolate"
       ],
-      "prepTime": 25,
-      "difficulty": "medio",
-      "image": "/images/recipes/enfrijoladas.jpg"
+      "prepTime": 8,
+      "difficulty": "fácil",
+      "image": "/images/recipes/tortillas-queso.jpg",
+      "servings": 1
     },
     {
       "id": 6,
-      "name": "Sopa de Verduras",
-      "description": "Sopa nutritiva con verduras de temporada",
-      "category": "sopas",
-      "ingredients": [13, 14, 15, 2, 3, 1, 32, 30, 31],
+      "name": "Arroz Rojo",
+      "description": "Arroz tradicional mexicano con tomate",
+      "category": "guarniciones",
+      "ingredients": [5, 1, 2, 3, 28, 30],
       "steps": [
-        "Picar todas las verduras en cubos",
-        "Sofreír cebolla y ajo en aceite",
-        "Agregar verduras y saltear 5 min",
-        "Cubrir con agua y cocinar 20 min",
-        "Sazonar con sal, pimienta y cilantro"
+        "Licuar el tomate con cebolla y ajo",
+        "Sofreír el arroz en aceite hasta dorar ligeramente",
+        "Agregar la salsa de tomate y cocinar 2 minutos",
+        "Añadir agua caliente (2 tazas por taza de arroz)",
+        "Tapary cocinar a fuego bajo 20 minutos",
+        "Dejar reposar 5 minutos sin destapar",
+        "Fluffear con tenedor antes de servir"
       ],
       "prepTime": 35,
       "difficulty": "fácil",
-      "image": "/images/recipes/sopa-verduras.jpg"
+      "image": "/images/recipes/arroz-rojo.jpg",
+      "servings": 4
     },
     {
       "id": 7,
-      "name": "Pescado a la Plancha",
-      "description": "Pescado fresco cocinado a la plancha",
-      "category": "pescados",
-      "ingredients": [17, 28, 11, 30, 31, 33],
+      "name": "Frijoles de la Olla",
+      "description": "Frijoles cocidos tradicionalmente",
+      "category": "guarniciones",
+      "ingredients": [6, 2, 3, 30],
       "steps": [
-        "Sazonar el pescado con sal y pimienta",
-        "Calentar plancha con aceite",
-        "Cocinar pescado 4 min por lado",
-        "Rociar con jugo de limón",
-        "Decorar con perejil fresco"
+        "Lavar los frijoles y remojar toda la noche",
+        "En olla de presión, cubrir frijoles con agua",
+        "Agregar cebolla y ajo enteros",
+        "Cocinar 45 minutos en olla de presión",
+        "O 2-3 horas en olla normal hasta suaves",
+        "Salar al final de la cocción",
+        "Servir calientes con su caldo"
       ],
-      "prepTime": 15,
+      "prepTime": 60,
       "difficulty": "fácil",
-      "image": "/images/recipes/pescado-plancha.jpg"
+      "image": "/images/recipes/frijoles-olla.jpg",
+      "servings": 6
     },
     {
       "id": 8,
-      "name": "Spaghetti con Salsa Roja",
-      "description": "Pasta con salsa de tomate casera",
-      "category": "italiana",
-      "ingredients": [24, 1, 2, 3, 28, 30, 31, 33],
+      "name": "Frijoles Refritos",
+      "description": "Frijoles fritos y machacados",
+      "category": "guarniciones",
+      "ingredients": [6, 2, 28, 30],
       "steps": [
-        "Cocinar spaghetti en agua con sal",
-        "Preparar salsa con tomate, ajo y cebolla",
-        "Cocinar salsa por 15 minutos",
-        "Mezclar pasta con salsa caliente",
-        "Decorar con perejil y servir"
+        "Calentar los frijoles de la olla",
+        "En un sartén, calentar aceite o manteca",
+        "Agregar cebolla picada y sofreír",
+        "Añadir los frijoles con poco caldo",
+        "Machacar con un aplastador hasta cremosos",
+        "Cocinar hasta la consistencia deseada",
+        "Servir calientes como guarnición"
       ],
-      "prepTime": 25,
+      "prepTime": 15,
       "difficulty": "fácil",
-      "image": "/images/recipes/spaghetti-rojo.jpg"
+      "image": "/images/recipes/frijoles-refritos.jpg",
+      "servings": 4
     },
     {
       "id": 9,
-      "name": "Ensalada César",
-      "description": "Ensalada fresca con aderezo cremoso",
-      "category": "ensaladas",
-      "ingredients": [18, 8, 25, 28, 11, 30, 31],
+      "name": "Sopa de Fideo",
+      "description": "Sopa tradicional de fideo seco",
+      "category": "sopas",
+      "ingredients": [24, 1, 2, 3, 28, 30],
       "steps": [
-        "Lavar y desinfectar lechuga",
-        "Preparar aderezo con los ingredientes",
-        "Tostar pan para los crutones",
-        "Mezclar lechuga con aderezo",
-        "Agregar queso parmesano y crutones"
+        "Dorar el fideo en aceite hasta golden",
+        "Licuar tomate con cebolla y ajo",
+        "Agregar la salsa al fideo dorado",
+        "Cocinar 2 minutos revolviendo",
+        "Añadir agua caliente y sal al gusto",
+        "Cocinar 10 minutos hasta que fideo esté suave",
+        "Servir con limón y chile en polvo"
       ],
       "prepTime": 20,
       "difficulty": "fácil",
-      "image": "/images/recipes/ensalada-cesar.jpg"
+      "image": "/images/recipes/sopa-fideo.jpg",
+      "servings": 3
     },
     {
       "id": 10,
-      "name": "Chilaquiles Rojos",
-      "description": "Totopos bañados en salsa roja",
-      "category": "mexicana",
-      "ingredients": [9, 19, 2, 3, 8, 20, 10, 7],
+      "name": "Quesadillas Simples",
+      "description": "Tortillas con queso derretido",
+      "category": "botanas",
+      "ingredients": [9, 8, 28],
       "steps": [
-        "Preparar salsa de tomate verde",
-        "Freír o tostar las tortillas",
-        "Bañar totopos en salsa caliente",
-        "Servir con crema, queso y cebolla",
-        "Acompañar con aguacate y huevo"
+        "Calentar un comal a fuego medio",
+        "Colocar tortilla y espolvorear queso",
+        "Doblar la tortilla por la mitad",
+        "Dorar por ambos lados hasta que el queso se derrita",
+        "Voltear con cuidado para no salir el queso",
+        "Servir calientes con salsa",
+        "Variación: agregar chile o frijoles"
       ],
-      "prepTime": 30,
-      "difficulty": "medio",
-      "image": "/images/recipes/chilaquiles-rojos.jpg"
+      "prepTime": 10,
+      "difficulty": "fácil",
+      "image": "/images/recipes/quesadillas.jpg",
+      "servings": 2
     },
     {
       "id": 11,
-      "name": "Pollo a la Naranja",
-      "description": "Pollo en salsa agridulce de naranja",
-      "category": "oriental",
-      "ingredients": [4, 35, 2, 28, 30, 11, 31],
+      "name": "Chilaquiles Rojos",
+      "description": "Totopos bañados en salsa roja",
+      "category": "desayuno",
+      "ingredients": [9, 1, 2, 3, 20, 8, 28, 30],
       "steps": [
-        "Cortar pollo en cubos y sazonar",
-        "Sofreír pollo hasta dorar",
-        "Preparar salsa con jugo de naranja",
-        "Cocinar pollo en salsa por 10 min",
-        "Servir con arroz blanco"
+        "Cortar tortillas en triángulos y freír hasta crujientes",
+        "Licuar tomate con cebolla, ajo y chile",
+        "Cocinar la salsa 10 minutos hasta espesar",
+        "Bañar los totopos con la salsa caliente",
+        "Servir inmediatamente con crema y queso",
+        "Opcional: agregar huevo estrellado o pollo",
+        "Decorar con cebolla y cilantro"
       ],
-      "prepTime": 40,
+      "prepTime": 25,
       "difficulty": "medio",
-      "image": "/images/recipes/pollo-naranja.jpg"
+      "image": "/images/recipes/chilaquiles-rojos.jpg",
+      "servings": 3
     },
     {
       "id": 12,
-      "name": "Calabazas Rellenas",
-      "description": "Calabazas rellenas de verduras y queso",
-      "category": "vegetariana",
-      "ingredients": [22, 13, 15, 2, 8, 28, 30, 31],
+      "name": "Molletes",
+      "description": "Pan tostado con frijoles y queso",
+      "category": "desayuno",
+      "ingredients": [25, 6, 8, 28],
       "steps": [
-        "Cocinar calabazas hasta tiernas",
-        "Sofreír verduras para el relleno",
-        "Vaciar calabazas y rellenar",
-        "Gratinar con queso por 10 min",
-        "Servir caliente como plato principal"
+        "Tostar el pan en horno o tostador",
+        "Untar una capa generosa de frijoles refritos",
+        "Espolvorear queso rallado por encima",
+        "Gratinar en horno hasta que el queso se derrita",
+        "O microondas por 1 minuto",
+        "Servir calientes",
+        "Variación: agregar pico de gallo o aguacate"
       ],
-      "prepTime": 45,
-      "difficulty": "medio",
-      "image": "/images/recipes/calabazas-rellenas.jpg"
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/molletes.jpg",
+      "servings": 2
     },
     {
       "id": 13,
-      "name": "Sándwich Club",
-      "description": "Sándwich triple con pollo y verduras",
-      "category": "sandwiches",
-      "ingredients": [25, 4, 18, 1, 8, 28, 30],
+      "name": "Sincronizadas",
+      "description": "Tortilla con jamón y queso",
+      "category": "botanas",
+      "ingredients": [9, 8, 100, 28],
       "steps": [
-        "Tostar el pan ligeramente",
-        "Cocinar y rebanar el pollo",
-        "Armar capas con todos los ingredientes",
-        "Cortar en triángulos y asegurar",
-        "Servir con papas fritas o ensalada"
+        "Calentar un comal o sartén",
+        "Colocar una tortilla y agregar jamón y queso",
+        "Poner otra tortilla encima",
+        "Dorar por ambos lados presionando ligeramente",
+        "Cocinar hasta que el queso se derrita",
+        "Cortar en cuartos y servir caliente",
+        "Acompañar con aguacate o salsa"
       ],
-      "prepTime": 20,
+      "prepTime": 12,
       "difficulty": "fácil",
-      "image": "/images/recipes/sandwich-club.jpg"
+      "image": "/images/recipes/sincronizadas.jpg",
+      "servings": 2
     },
     {
       "id": 14,
-      "name": "Flan de Vainilla",
-      "description": "Postre cremoso de vainilla con caramelo",
-      "category": "postres",
-      "ingredients": [7, 26, 35, 30, 34],
+      "name": "Tostadas de Frijol",
+      "description": "Tostadas crujientes con frijol",
+      "category": "botanas",
+      "ingredients": [9, 6, 1, 2, 10, 8, 28],
       "steps": [
-        "Preparar caramelo en el molde",
-        "Batir huevos con leche condensada",
-        "Agregar leche y esencia de vainilla",
-        "Verter en molde y cocer a baño María",
-        "Refrigerar 4 horas antes de servir"
+        "Freír tortillas hasta que estén crujientes",
+        "Untar una capa de frijoles refritos",
+        "Agregar lechuga picada finamente",
+        "Añadir tomate y cebolla en rodajas",
+        "Colocar aguacate en rebanadas",
+        "Espolvorear queso fresco",
+        "Servir inmediatamente para que no se humedezcan"
       ],
-      "prepTime": 60,
-      "difficulty": "difícil",
-      "image": "/images/recipes/flan-vainilla.jpg"
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/tostadas-frijol.jpg",
+      "servings": 4
     },
     {
       "id": 15,
-      "name": "Esquites",
-      "description": "Granos de elote con mayonesa y queso",
-      "category": "botanas",
-      "ingredients": [21, 20, 8, 12, 11, 30],
+      "name": "Papas con Chorizo",
+      "description": "Papas doradas con chorizo",
+      "category": "desayuno",
+      "ingredients": [14, 96, 2, 28, 30],
       "steps": [
-        "Cocer los granos de elote",
-        "Mezclar con mayonesa y crema",
-        "Agregar chile en polvo y sal",
-        "Espolvorear con queso cotija",
-        "Servir con jugo de limón"
+        "Pelar y cortar papas en cubos pequeños",
+        "Cocinar chorizo en sartén desmoronando",
+        "Agregar cebolla picada y sofreír",
+        "Incorporar las papas y mezclar bien",
+        "Tapary cocinar a fuego bajo 15-20 minutos",
+        "Revolver ocasionalmente hasta papas tiernas",
+        "Servir con tortillas y salsa"
+      ],
+      "prepTime": 30,
+      "difficulty": "fácil",
+      "image": "/images/recipes/papas-chorizo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 16,
+      "name": "Huevos a la Mexicana",
+      "description": "Huevos revueltos con la tricolor mexicana: tomate, cebolla y chile verde",
+      "category": "desayuno",
+      "ingredients": [7, 1, 2, 113, 28, 30],
+      "steps": [
+        "Picar el tomate, cebolla y chile verde en cuadros pequeños",
+        "Calentar aceite en un sartén a fuego medio",
+        "Sofreír la cebolla por 2 minutos hasta que transparente",
+        "Agregar el tomate y chile verde, cocinar 3 minutos más",
+        "Batir los huevos y verter sobre las verduras",
+        "Revolver constantemente hasta que los huevos estén cocidos",
+        "Salar al gusto y servir con tortillas calientes"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevos-mexicana.jpg",
+      "servings": 2
+    },
+    {
+      "id": 17,
+      "name": "Huevos con Chorizo",
+      "description": "Huevos revueltos con chorizo especiado",
+      "category": "desayuno",
+      "ingredients": [7, 115, 28, 30],
+      "steps": [
+        "Desmoronar el chorizo en un sartén sin aceite",
+        "Cocinar a fuego medio por 5 minutos hasta que suelte su grasa",
+        "Batir los huevos en un bowl",
+        "Verter los huevos sobre el chorizo cocido",
+        "Revolver constantemente hasta que los huevos estén cocidos",
+        "Salar ligeramente (el chorizo ya tiene sal)",
+        "Servir inmediatamente con frijoles y tortillas"
+      ],
+      "prepTime": 12,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevos-chorizo.jpg",
+      "servings": 2
+    },
+    {
+      "id": 18,
+      "name": "Tortilla Española Latina",
+      "description": "Tortilla de papas estilo latino con cebolla",
+      "category": "desayuno",
+      "ingredients": [14, 7, 2, 28, 30],
+      "steps": [
+        "Pelar y cortar las papas en rodajas finas",
+        "Picar la cebolla en juliana",
+        "Freír las papas y cebolla en aceite hasta tiernas",
+        "Escurrir el exceso de aceite",
+        "Batir los huevos y mezclar con las papas y cebolla",
+        "Verter en sartén y cocinar a fuego bajo 8-10 minutos",
+        "Voltear con cuidado y dorar por el otro lado 5 minutos"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/tortilla-española.jpg",
+      "servings": 4
+    },
+    {
+      "id": 19,
+      "name": "Arroz Blanco",
+      "description": "Arroz esponjoso y suelto perfecto para acompañar",
+      "category": "guarniciones",
+      "ingredients": [5, 3, 28, 147, 30],
+      "steps": [
+        "Lavar el arroz bajo agua fría hasta que el agua salga clara",
+        "Picar finamente el ajo",
+        "Calentar aceite en una olla y sofreír el ajo 1 minuto",
+        "Agregar el arroz y sofreír 2 minutos hasta translúcido",
+        "Añadir agua caliente (2 tazas por cada taza de arroz) y sal",
+        "Cocinar a fuego bajo 18-20 minutos con tapa puesta",
+        "Dejar reposar 5 minutos sin destapar antes de servir"
       ],
       "prepTime": 25,
       "difficulty": "fácil",
-      "image": "/images/recipes/esquites.jpg"
+      "image": "/images/recipes/arroz-blanco.jpg",
+      "servings": 4
+    },
+    {
+      "id": 20,
+      "name": "Arroz Rojo",
+      "description": "Arroz tradicional mexicano con tomate",
+      "category": "guarniciones",
+      "ingredients": [5, 1, 2, 3, 28, 117, 30],
+      "steps": [
+        "Licuar el tomate con cebolla, ajo y un poco de agua",
+        "Sofreír el arroz en aceite hasta dorar ligeramente",
+        "Agregar la salsa de tomate y cocinar 2 minutos revolviendo",
+        "Disolver el consomé en agua caliente",
+        "Añadir el agua con consomé a la olla (2 tazas por taza de arroz)",
+        "Tapar y cocinar a fuego bajo 20 minutos",
+        "Dejar reposar 5 minutos y fluffear con tenedor antes de servir"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/arroz-rojo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 21,
+      "name": "Frijoles de la Olla",
+      "description": "Frijoles cocidos tradicionalmente con su caldo",
+      "category": "guarniciones",
+      "ingredients": [6, 147, 2, 3, 30],
+      "steps": [
+        "Lavar los frijoles y remojar en agua toda la noche",
+        "Escurrir y colocar en olla con agua fresca",
+        "Agregar cebolla y ajo enteros (para retirar después)",
+        "Cocinar 45 minutos en olla de presión",
+        "O 2-3 horas en olla normal hasta que estén suaves",
+        "Salar solo al final de la cocción",
+        "Servir calientes con su caldo nutritivo"
+      ],
+      "prepTime": 60,
+      "difficulty": "fácil",
+      "image": "/images/recipes/frijoles-olla.jpg",
+      "servings": 6
+    },
+    {
+      "id": 22,
+      "name": "Frijoles Refritos",
+      "description": "Frijoles fritos y machacados cremosos",
+      "category": "guarniciones",
+      "ingredients": [120, 128, 2, 30],
+      "steps": [
+        "Calentar los frijoles de la olla con su caldo",
+        "En un sartén, calentar manteca a fuego medio",
+        "Agregar cebolla picada y sofreír hasta transparente",
+        "Añadir los frijoles con poco caldo",
+        "Machacar con un aplastador hasta cremosos",
+        "Cocinar revolviendo hasta la consistencia deseada",
+        "Servir calientes como guarnición o para botanas"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/frijoles-refritos.jpg",
+      "servings": 4
+    },
+    {
+      "id": 23,
+      "name": "Tostadas de Pollo",
+      "description": "Tostadas crujientes con pollo deshebrado y frescos vegetales",
+      "category": "botanas",
+      "ingredients": [146, 4, 18, 20, 8, 1, 142],
+      "steps": [
+        "Cocer y deshebrar el pollo",
+        "Freír o comprar tostadas crujientes",
+        "Lavar y picar la lechuga finamente",
+        "Cortar el tomate en rodajas delgadas",
+        "Armar tostadas: base de pollo deshebrado",
+        "Agregar lechuga, tomate, crema y queso",
+        "Bañar con salsa roja al gusto y servir inmediatamente"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/tostadas-pollo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 24,
+      "name": "Tacos de Pollo Guisado",
+      "description": "Tacos de pollo en salsa casera",
+      "category": "mexicana",
+      "ingredients": [4, 1, 2, 3, 12, 9, 30],
+      "steps": [
+        "Cocinar el pollo en agua con sal hasta tierno",
+        "Deshebrar el pollo y reservar el caldo",
+        "Licuar tomate, cebolla, ajo y chile para la salsa",
+        "Cocinar la salsa 10 minutos hasta espesar",
+        "Agregar el pollo deshebrado a la salsa",
+        "Guisar 5 minutos más para integrar sabores",
+        "Servir en tortillas calientes con cebolla y cilantro"
+      ],
+      "prepTime": 40,
+      "difficulty": "medio",
+      "image": "/images/recipes/tacos-pollo-guisado.jpg",
+      "servings": 4
+    },
+    {
+      "id": 25,
+      "name": "Tacos Dorados de Papa",
+      "description": "Tacos crujientes rellenos de papas",
+      "category": "botanas",
+      "ingredients": [14, 9, 28, 18, 20, 8],
+      "steps": [
+        "Cocer y machacar las papas",
+        "Salar las papas al gusto",
+        "Rellenar tortillas con el puré de papas",
+        "Enrollar y asegurar con palillo si es necesario",
+        "Freír en aceite caliente hasta dorar y crujir",
+        "Escurrir en papel absorbente",
+        "Servir con lechuga, crema y queso espolvoreado"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/tacos-dorados-papa.jpg",
+      "servings": 4
+    }, 
+    {
+      "id": 26,
+      "name": "Tacos de Carne Asada",
+      "description": "Tacos de carne asada con limón y tortillas recién hechas",
+      "category": "mexicana",
+      "ingredients": [103, 30, 31, 11, 9],
+      "steps": [
+        "Sazonar la carne con sal y pimienta por ambos lados",
+        "Calentar un comal o parrilla a fuego alto",
+        "Asar la carne 4-5 minutos por cada lado para término medio",
+        "Dejar reposar la carne 5 minutos antes de cortar",
+        "Cortar la carne en tiras delgadas contra la veta",
+        "Calentar tortillas en el comal hasta que estén flexibles",
+        "Servir la carne en tortillas con limón y salsa al gusto"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/tacos-carne-asada.jpg",
+      "servings": 4
+    },
+    {
+      "id": 27,
+      "name": "Carne de Res en Salsa Roja",
+      "description": "Carne de res guisada en salsa roja casera",
+      "category": "mexicana",
+      "ingredients": [97, 1, 3, 2, 12, 30],
+      "steps": [
+        "Cortar la carne en cubos y salpimentar",
+        "Sellar la carne en aceite caliente por todos lados",
+        "Licuar tomate, ajo, cebolla y chile con un poco de agua",
+        "Verter la salsa sobre la carne sellada",
+        "Cocinar a fuego bajo por 1.5 horas hasta que la carne esté tierna",
+        "Rectificar sazón y agregar agua si es necesario",
+        "Servir caliente con arroz y frijoles"
+      ],
+      "prepTime": 105,
+      "difficulty": "medio",
+      "image": "/images/recipes/carne-salsa-roja.jpg",
+      "servings": 4
+    },
+    {
+      "id": 28,
+      "name": "Carne de Cerdo en Salsa Verde",
+      "description": "Carne de cerdo en deliciosa salsa verde",
+      "category": "mexicana",
+      "ingredients": [96, 19, 112, 3, 2],
+      "steps": [
+        "Cortar la carne de cerdo en cubos",
+        "Cocinar la carne en agua con sal hasta tierna (45 minutos)",
+        "Licuar tomate verde, chile serrano, ajo y cebolla",
+        "En otro sartén, cocinar la salsa 10 minutos",
+        "Agregar la carne cocida a la salsa",
+        "Guisar 15 minutos más para que absorba sabores",
+        "Servir con tortillas y arroz blanco"
+      ],
+      "prepTime": 70,
+      "difficulty": "medio",
+      "image": "/images/recipes/cerdo-salsa-verde.jpg",
+      "servings": 4
+    },
+    {
+      "id": 29,
+      "name": "Pollo en Mole",
+      "description": "Pollo bañado en salsa de mole tradicional",
+      "category": "mexicana",
+      "ingredients": [4, 136, 114, 148, 30],
+      "steps": [
+        "Cocinar el pollo en agua con sal hasta tierno",
+        "Deshebrar o dejar en piezas, reservar el caldo",
+        "Disolver la pasta de mole en caldo de pollo caliente",
+        "Agregar el chocolate para mole y mezclar bien",
+        "Cocinar la salsa 20 minutos a fuego bajo revolviendo",
+        "Incorporar el pollo a la salsa y calentar 10 minutos",
+        "Servir con arroz y tortillas"
+      ],
+      "prepTime": 50,
+      "difficulty": "medio",
+      "image": "/images/recipes/pollo-mole.jpg",
+      "servings": 4
+    },
+    {
+      "id": 30,
+      "name": "Mole Verde",
+      "description": "Mole verde con pepita y hierbas frescas",
+      "category": "mexicana",
+      "ingredients": [4, 19, 137, 112, 32, 148],
+      "steps": [
+        "Cocinar el pollo en caldo hasta tierno",
+        "Tostar ligeramente las pepitas de calabaza",
+        "Licuar tomate verde, pepitas, chile serrano y cilantro",
+        "Colar la salsa para una textura suave",
+        "Cocinar la salsa 15 minutos hasta espesar",
+        "Agregar el pollo y cocinar 10 minutos más",
+        "Servir con arroz y tortillas de maíz"
+      ],
+      "prepTime": 60,
+      "difficulty": "medio",
+      "image": "/images/recipes/mole-verde.jpg",
+      "servings": 4
+    },
+    {
+      "id": 31,
+      "name": "Pollo al Chipotle",
+      "description": "Pollo en salsa cremosa de chipotle",
+      "category": "mexicana",
+      "ingredients": [4, 20, 108, 3, 2],
+      "steps": [
+        "Cocinar y deshebrar el pollo",
+        "Licuar la crema con chipotle, ajo y cebolla",
+        "Cocinar la salsa a fuego bajo 10 minutos",
+        "Agregar el pollo deshebrado a la salsa",
+        "Cocinar 15 minutos a fuego bajo revolviendo ocasionalmente",
+        "Rectificar sazón si es necesario",
+        "Servir con arroz o en tortillas"
+      ],
+      "prepTime": 40,
+      "difficulty": "fácil",
+      "image": "/images/recipes/pollo-chipotle.jpg",
+      "servings": 4
+    },
+    {
+      "id": 32,
+      "name": "Pollo a la Cerveza",
+      "description": "Pollo cocido en cerveza con especias",
+      "category": "mexicana",
+      "ingredients": [4, 74, 2, 3, 30, 31],
+      "steps": [
+        "Sazonar el pollo con sal y pimienta",
+        "Dorar el pollo en aceite por ambos lados",
+        "Agregar cebolla y ajo picados, sofreír 2 minutos",
+        "Verter la cerveza hasta cubrir el pollo",
+        "Cocinar a fuego bajo 40 minutos tapado",
+        "Destapar y cocinar 10 minutos más para reducir",
+        "Servir con la salsa reducida y vegetales"
+      ],
+      "prepTime": 60,
+      "difficulty": "fácil",
+      "image": "/images/recipes/pollo-cerveza.jpg",
+      "servings": 4
+    },
+    {
+      "id": 33,
+      "name": "Fajitas de Pollo",
+      "description": "Fajitas de pollo con pimientos y cebolla",
+      "category": "mexicana",
+      "ingredients": [4, 138, 2, 28, 30],
+      "steps": [
+        "Cortar el pollo en tiras delgadas",
+        "Cortar pimientos y cebolla en juliana",
+        "Sazonar el pollo con sal",
+        "Saltear el pollo en aceite caliente hasta dorar",
+        "Agregar pimientos y cebolla, saltear 5-7 minutos",
+        "Cocinar hasta que verduras estén tierno-crujientes",
+        "Servir caliente con tortillas de harina"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/fajitas-pollo.jpg",
+      "servings": 3
+    },
+    {
+      "id": 34,
+      "name": "Chilaquiles Verdes",
+      "description": "Totopos bañados en salsa verde con crema y queso",
+      "category": "desayuno",
+      "ingredients": [9, 19, 112, 20, 8],
+      "steps": [
+        "Cortar tortillas en triángulos y freír hasta crujientes",
+        "Licuar tomate verde con chile serrano",
+        "Cocinar la salsa 10 minutos hasta espesar ligeramente",
+        "Bañar los totopos con la salsa verde caliente",
+        "Cocinar 2 minutos para que los totopos absorban la salsa",
+        "Servir inmediatamente con crema y queso espolvoreado",
+        "Acompañar con frijoles y huevo al gusto"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/chilaquiles-verdes.jpg",
+      "servings": 3
+    },
+    {
+      "id": 35,
+      "name": "Chilaquiles Rojos",
+      "description": "Chilaquiles en salsa roja con crema y queso fresco",
+      "category": "desayuno",
+      "ingredients": [9, 1, 12, 3, 20, 8],
+      "steps": [
+        "Preparar totopos friendo tortillas en triángulos",
+        "Licuar tomate, chile y ajo para la salsa roja",
+        "Cocinar la salsa 10 minutos hasta que cambie de color",
+        "Incorporar los totopos a la salsa y mezclar suavemente",
+        "Cocinar 3 minutos para que se ablanden ligeramente",
+        "Servir en plato con crema, queso y cebolla en rodajas",
+        "Perfectos para el desayuno o brunch"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/chilaquiles-rojos.jpg",
+      "servings": 3
+    },
+    {
+      "id": 36,
+      "name": "Enchiladas Verdes",
+      "description": "Tortillas rellenas de pollo bañadas en salsa verde",
+      "category": "mexicana",
+      "ingredients": [9, 4, 19, 112, 20, 8],
+      "steps": [
+        "Cocer y deshebrar el pollo",
+        "Licuar tomate verde con chile serrano para la salsa",
+        "Cocinar la salsa 10 minutos hasta espesar ligeramente",
+        "Pasar tortillas rápidamente por la salsa caliente",
+        "Rellenar tortillas con pollo deshebrado y enrollar",
+        "Colocar enchiladas en plato y bañar con más salsa",
+        "Decorar con crema, queso fresco y cebolla en rodajas"
+      ],
+      "prepTime": 40,
+      "difficulty": "medio",
+      "image": "/images/recipes/enchiladas-verdes.jpg",
+      "servings": 4
+    },
+    {
+      "id": 37,
+      "name": "Enchiladas Rojas",
+      "description": "Enchiladas de pollo en salsa de chile guajillo",
+      "category": "mexicana",
+      "ingredients": [9, 4, 110, 20, 8],
+      "steps": [
+        "Deshebrar pollo previamente cocido",
+        "Remojar chiles guajillo en agua caliente 15 minutos",
+        "Licuar chiles con un poco de agua de remojo",
+        "Colar la salsa y cocinar 10 minutos",
+        "Pasar tortillas por la salsa roja caliente",
+        "Rellenar con pollo, enrollar y colocar en plato",
+        "Bañar con más salsa y decorar con crema y queso"
+      ],
+      "prepTime": 45,
+      "difficulty": "medio",
+      "image": "/images/recipes/enchiladas-rojas.jpg",
+      "servings": 4
+    },
+    {
+      "id": 38,
+      "name": "Quesadillas de Queso",
+      "description": "Tortillas con queso derretido, clásico mexicano",
+      "category": "botanas",
+      "ingredients": [9, 8, 28],
+      "steps": [
+        "Calentar un comal a fuego medio",
+        "Colocar tortilla y espolvorear queso rallado",
+        "Doblar tortilla por la mitad",
+        "Dorar por ambos lados hasta que el queso se derrita",
+        "Presionar ligeramente con espátula para unir",
+        "Voltear con cuidado para que no salga el queso",
+        "Servir calientes con salsa al gusto"
+      ],
+      "prepTime": 10,
+      "difficulty": "fácil",
+      "image": "/images/recipes/quesadillas-queso.jpg",
+      "servings": 2
+    },
+    {
+      "id": 39,
+      "name": "Quesadillas de Flor de Calabaza",
+      "description": "Quesadillas rellenas de flor de calabaza y queso",
+      "category": "vegetariana",
+      "ingredients": [119, 8, 9],
+      "steps": [
+        "Lavar y escurrir las flores de calabaza",
+        "Picar las flores en trozos medianos",
+        "Saltear las flores en sartén 3-4 minutos",
+        "Mezclar las flores con queso rallado",
+        "Rellenar tortillas con la mezcla",
+        "Cocinar en comal hasta dorar por ambos lados",
+        "Servir calientes con salsa verde"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/quesadillas-flor.jpg",
+      "servings": 3
+    },
+    {
+      "id": 40,
+      "name": "Quesadillas de Huitlacoche",
+      "description": "Deliciosas quesadillas de huitlacoche con epazote",
+      "category": "vegetariana",
+      "ingredients": [126, 118, 8, 9],
+      "steps": [
+        "Saltear el huitlacoche en un sartén con aceite",
+        "Agregar epazote picado y cocinar 5 minutos",
+        "Mezclar el huitlacoche con queso rallado",
+        "Rellenar tortillas con la mezcla",
+        "Cocinar en comal hasta que el queso se derrita",
+        "Dorar por ambos lados",
+        "Servir inmediatamente con crema al gusto"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/quesadillas-huitlacoche.jpg",
+      "servings": 3
+    },
+    {
+      "id": 41,
+      "name": "Sopes",
+      "description": "Base de masa con frijoles, crema, queso y salsa",
+      "category": "botanas",
+      "ingredients": [129, 121, 20, 8, 142],
+      "steps": [
+        "Formar bolitas con la masa de maíz",
+        "Aplanar formando un disco grueso",
+        "Formar bordes alrededor para contener los ingredientes",
+        "Cocinar en comal hasta dorar por ambos lados",
+        "Freír ligeramente en aceite para que doren",
+        "Untar base con frijoles refritos",
+        "Agregar crema, queso rallado y salsa al gusto"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/sopes.jpg",
+      "servings": 4
+    },
+    {
+      "id": 42,
+      "name": "Gorditas Rellenas",
+      "description": "Gorditas de masa rellenas de chicharrón prensado",
+      "category": "botanas",
+      "ingredients": [129, 116, 121, 8],
+      "steps": [
+        "Mezclar masa con un poco de agua hasta flexible",
+        "Formar bolitas y aplanar en discos de 1 cm grosor",
+        "Cocinar en comal hasta dorar por ambos lados",
+        "Hacer un corte en el borde para rellenar",
+        "Rellenar con chicharrón prensado y frijoles",
+        "Agregar queso fresco desmenuzado",
+        "Servir con salsa roja o verde"
+      ],
+      "prepTime": 35,
+      "difficulty": "medio",
+      "image": "/images/recipes/gorditas.jpg",
+      "servings": 4
+    },
+    {
+      "id": 43,
+      "name": "Pambazos",
+      "description": "Pan relleno de papa con chorizo bañado en salsa",
+      "category": "botanas",
+      "ingredients": [133, 14, 115, 20, 8, 18, 142],
+      "steps": [
+        "Cocer y machacar papas",
+        "Cocinar chorizo y mezclar con papas",
+        "Partir pan por la mitad sin separar completamente",
+        "Rellenar con la mezcla de papa y chorizo",
+        "Bañar el exterior del pan en salsa roja",
+        "Dorar en comal o sartén hasta crujiente",
+        "Servir con lechuga, crema y queso"
+      ],
+      "prepTime": 40,
+      "difficulty": "medio",
+      "image": "/images/recipes/pambazos.jpg",
+      "servings": 4
+    },
+    {
+      "id": 44,
+      "name": "Pozole Rojo",
+      "description": "Pozole tradicional de cerdo con chile rojo",
+      "category": "sopas",
+      "ingredients": [5, 96, 107, 3, 2],
+      "steps": [
+        "Cocinar el maíz pozolero en agua 2 horas hasta reviente",
+        "Cocinar la carne de cerdo en otra olla hasta tierna",
+        "Remojar chiles anchos en agua caliente",
+        "Licuar chiles con ajo y cebolla",
+        "Unir maíz, carne y salsa en una olla grande",
+        "Cocinar 1 hora más para integrar sabores",
+        "Servir con lechuga, rábanos, orégano y limón"
+      ],
+      "prepTime": 180,
+      "difficulty": "difícil",
+      "image": "/images/recipes/pozole-rojo.jpg",
+      "servings": 8
+    },
+    {
+      "id": 45,
+      "name": "Pozole Verde",
+      "description": "Pozole verde con pollo y pepita de calabaza",
+      "category": "sopas",
+      "ingredients": [5, 4, 137, 113, 32],
+      "steps": [
+        "Cocinar el maíz en agua hasta que reviente (2 horas)",
+        "Cocinar el pollo en otra olla hasta tierno",
+        "Tostar ligeramente las pepitas de calabaza",
+        "Licuar pepitas con chile verde y cilantro",
+        "Unir maíz, pollo deshebrado y salsa verde",
+        "Cocinar 45 minutos a fuego bajo",
+        "Servir con aguacate, cebolla y tostadas"
+      ],
+      "prepTime": 165,
+      "difficulty": "difícil",
+      "image": "/images/recipes/pozole-verde.jpg",
+      "servings": 8
+    },
+    {
+      "id": 46,
+      "name": "Tamales Rojos",
+      "description": "Tamales de masa rellenos de carne de cerdo en salsa roja",
+      "category": "mexicana",
+      "ingredients": [129, 128, 107, 96],
+      "steps": [
+        "Preparar la masa batida con manteca hasta esponjosa",
+        "Cocinar la carne de cerdo y deshebrar",
+        "Preparar salsa roja con chiles anchos remojados",
+        "Mezclar la carne con la salsa roja",
+        "Extender masa en hojas de maíz previamente remojadas",
+        "Agregar relleno de carne y doblar hojas",
+        "Cocinar al vapor 1.5 horas hasta que la masa se despegue"
+      ],
+      "prepTime": 120,
+      "difficulty": "difícil",
+      "image": "/images/recipes/tamales-rojos.jpg",
+      "servings": 12
+    },
+    {
+      "id": 47,
+      "name": "Tamales Verdes",
+      "description": "Tamales con pollo en salsa verde",
+      "category": "mexicana",
+      "ingredients": [129, 128, 113, 4],
+      "steps": [
+        "Batir masa con manteca hasta punto de cinta",
+        "Cocer y deshebrar el pollo",
+        "Preparar salsa verde con tomate verde y chile",
+        "Mezclar pollo con salsa verde",
+        "Armar tamales: masa, relleno y doblar hojas",
+        "Colocar en vaporera en posición vertical",
+        "Cocinar 1.5 horas al vapor hasta cocidos"
+      ],
+      "prepTime": 120,
+      "difficulty": "difícil",
+      "image": "/images/recipes/tamales-verdes.jpg",
+      "servings": 12
+    },
+    {
+      "id": 48,
+      "name": "Tamales Dulces",
+      "description": "Tamales dulces con pasas y color rosa",
+      "category": "postres",
+      "ingredients": [129, 128, 36, 69, 81],
+      "steps": [
+        "Batir masa con manteca hasta esponjosa",
+        "Agregar azúcar y mezclar bien",
+        "Incorporar colorante rosa si se desea",
+        "Agregar pasas a la masa",
+        "Extender en hojas de maíz y doblar",
+        "Cocinar al vapor 1 hora",
+        "Servir calientes como postre o desayuno"
+      ],
+      "prepTime": 80,
+      "difficulty": "medio",
+      "image": "/images/recipes/tamales-dulces.jpg",
+      "servings": 10
+    },
+    {
+      "id": 49,
+      "name": "Sopa de Fideo",
+      "description": "Sopa tradicional de fideo seco con tomate",
+      "category": "sopas",
+      "ingredients": [24, 1, 2, 3, 147],
+      "steps": [
+        "Dorar el fideo en aceite hasta golden",
+        "Licuar tomate con cebolla y ajo",
+        "Agregar la salsa al fideo dorado",
+        "Cocinar 2 minutos revolviendo constantemente",
+        "Añadir agua caliente y sal al gusto",
+        "Cocinar 10 minutos hasta que el fideo esté suave",
+        "Servir con limón y chile en polvo"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/sopa-fideo.jpg",
+      "servings": 3
+    },
+    {
+      "id": 50,
+      "name": "Sopa de Arroz Caldosa",
+      "description": "Arroz sopero estilo caldoso con verduras",
+      "category": "sopas",
+      "ingredients": [5, 1, 2, 3, 148],
+      "steps": [
+        "Sofreír el arroz en aceite hasta transparente",
+        "Licuar tomate con cebolla y ajo",
+        "Agregar la salsa al arroz y cocinar 2 minutos",
+        "Verter caldo de pollo caliente",
+        "Cocinar 25 minutos a fuego bajo tapado",
+        "Rectificar consistencia (debe ser caldoso)",
+        "Servir caliente con limón"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/arroz-caldoso.jpg",
+      "servings": 4
+    },
+    {
+      "id": 51,
+      "name": "Sopa de Tortilla",
+      "description": "Sopa de tortilla frita con aguacate y queso",
+      "category": "sopas",
+      "ingredients": [9, 1, 12, 3, 10],
+      "steps": [
+        "Cortar tortillas en tiras y freír hasta crujientes",
+        "Licuar tomate con chile y ajo para la salsa",
+        "Cocinar la salsa 10 minutos",
+        "Agregar caldo de pollo y cocinar 15 minutos",
+        "Servir sopa caliente sobre tortillas fritas",
+        "Decorar con aguacate, queso y crema",
+        "Acompañar con chile pasilla frito"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/sopa-tortilla.jpg",
+      "servings": 4
+    },
+    {
+      "id": 52,
+      "name": "Caldo de Pollo",
+      "description": "Caldo sustancioso de pollo con verduras",
+      "category": "sopas",
+      "ingredients": [4, 13, 14, 22, 2, 3],
+      "steps": [
+        "Cocinar el pollo en agua con sal 40 minutos",
+        "Agregar zanahorias en rodajas",
+        "Incorporar papas en cubos",
+        "Añadir calabaza en trozos",
+        "Agregar cebolla y ajo enteros",
+        "Cocinar 20 minutos más hasta verduras tiernas",
+        "Servir caliente con cilantro y limón"
+      ],
+      "prepTime": 70,
+      "difficulty": "fácil",
+      "image": "/images/recipes/caldo-pollo.jpg",
+      "servings": 6
+    },
+    {
+      "id": 53,
+      "name": "Caldo de Res",
+      "description": "Caldo nutritivo de res con verduras",
+      "category": "sopas",
+      "ingredients": [97, 21, 106, 13, 14],
+      "steps": [
+        "Cocinar la carne de res en agua 1.5 horas",
+        "Agregar elotes en trozos",
+        "Incorporar chayotes en cubos",
+        "Añadir zanahorias en rodajas",
+        "Agregar papas en trozos grandes",
+        "Cocinar 45 minutos más hasta carne tierna",
+        "Servir con cebolla picada y cilantro"
+      ],
+      "prepTime": 135,
+      "difficulty": "fácil",
+      "image": "/images/recipes/caldo-res.jpg",
+      "servings": 6
+    },
+    {
+      "id": 54,
+      "name": "Birria",
+      "description": "Birria tradicional de res con chiles secos",
+      "category": "mexicana",
+      "ingredients": [104, 107, 3, 65, 64],
+      "steps": [
+        "Remojar chiles secos en agua caliente",
+        "Licuar chiles con ajo, comino y clavo",
+        "Marinar la carne con la salsa por 4 horas",
+        "Cocinar la carne en su marinada 3 horas",
+        "Deshebrar la carne y reservar caldo",
+        "Servir carne en tacos con cebolla y cilantro",
+        "Acompañar con caldo de la cocción"
+      ],
+      "prepTime": 240,
+      "difficulty": "difícil",
+      "image": "/images/recipes/birria.jpg",
+      "servings": 8
+    },
+    {
+      "id": 55,
+      "name": "Barbacoa Casera",
+      "description": "Barbacoa de res cocida lentamente con especias",
+      "category": "mexicana",
+      "ingredients": [97, 125, 65, 64, 59],
+      "steps": [
+        "Sazonar la carne con sal y especias",
+        "Forrar una olla con hojas de plátano",
+        "Colocar la carne sobre las hojas",
+        "Cubrir completamente con más hojas",
+        "Cocinar a fuego muy bajo 6-8 horas",
+        "O en horno a 140°C por 6 horas",
+        "Deshebrar y servir con tortillas y salsa"
+      ],
+      "prepTime": 360,
+      "difficulty": "difícil",
+      "image": "/images/recipes/barbacoa.jpg",
+      "servings": 8
+    },
+    {
+      "id": 56,
+      "name": "Al Pastor Casero",
+      "description": "Carne de cerdo marinada al estilo pastor con piña",
+      "category": "mexicana",
+      "ingredients": [96, 101, 76, 110],
+      "steps": [
+        "Cortar la carne de cerdo en rebanadas delgadas",
+        "Preparar adobo: licuar achiote, chile guajillo y especias",
+        "Marinar la carne en el adobo por mínimo 4 horas",
+        "En un sartén, cocinar la carne marinada hasta dorar",
+        "Agregar trozos de piña fresca los últimos 5 minutos",
+        "Cortar la carne en trozos más pequeños si es necesario",
+        "Servir en tacos con cebolla, cilantro y piña"
+      ],
+      "prepTime": 45,
+      "difficulty": "medio",
+      "image": "/images/recipes/al-pastor.jpg",
+      "servings": 4
+    },
+    {
+      "id": 57,
+      "name": "Carne Deshebrada",
+      "description": "Carne de res deshebrada para tacos, tortas y más",
+      "category": "mexicana",
+      "ingredients": [97, 3, 2, 30],
+      "steps": [
+        "Cortar la carne en trozos grandes",
+        "Cocinar en agua con ajo, cebolla y sal 2 horas",
+        "Verificar que la carne esté muy tierna",
+        "Retirar del caldo y dejar enfriar ligeramente",
+        "Deshebrar con dos tenedores o las manos",
+        "Reservar el caldo para otras preparaciones",
+        "Usar para tacos, enchiladas, tortas o sopes"
+      ],
+      "prepTime": 135,
+      "difficulty": "fácil",
+      "image": "/images/recipes/carne-deshebrada.jpg",
+      "servings": 6
+    },
+    {
+      "id": 58,
+      "name": "Tinga de Pollo",
+      "description": "Pollo deshebrado en salsa de tomate y chipotle",
+      "category": "mexicana",
+      "ingredients": [4, 1, 108, 2],
+      "steps": [
+        "Cocer y deshebrar el pollo",
+        "Cortar cebolla en juliana",
+        "Licuar tomate con chipotles al gusto",
+        "Sofreír la cebolla hasta transparente",
+        "Agregar la salsa y cocinar 10 minutos",
+        "Incorporar el pollo deshebrado",
+        "Cocinar 15 minutos más y servir en tostadas"
+      ],
+      "prepTime": 40,
+      "difficulty": "fácil",
+      "image": "/images/recipes/tinga-pollo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 59,
+      "name": "Tinga de Res",
+      "description": "Carne de res deshebrada en salsa de chipotle",
+      "category": "mexicana",
+      "ingredients": [97, 108, 1, 2],
+      "steps": [
+        "Cocinar y deshebrar la carne de res",
+        "Cortar cebolla en tiras delgadas",
+        "Preparar salsa: licuar tomate con chipotle",
+        "Sofreír cebolla en aceite hasta dorar",
+        "Agregar salsa y cocinar 8 minutos",
+        "Incorporar carne deshebrada",
+        "Guisar 10 minutos y servir caliente"
+      ],
+      "prepTime": 50,
+      "difficulty": "fácil",
+      "image": "/images/recipes/tinga-res.jpg",
+      "servings": 4
+    },
+    {
+      "id": 60,
+      "name": "Chiles Rellenos",
+      "description": "Chiles poblanos rellenos de queso bañados en huevo",
+      "category": "mexicana",
+      "ingredients": [15, 8, 7, 1, 2],
+      "steps": [
+        "Asar chiles poblanos hasta que la piel se suelte",
+        "Envolver en bolsa de plástico 10 minutos",
+        "Pelar chiles cuidadosamente sin romper",
+        "Hacer un corte y retirar venas y semillas",
+        "Rellenar con queso o picadillo",
+        "Batir claras a punto de turrón, agregar yemas",
+        "Rebozar chiles y freír en aceite caliente hasta dorar"
+      ],
+      "prepTime": 60,
+      "difficulty": "difícil",
+      "image": "/images/recipes/chiles-rellenos.jpg",
+      "servings": 4
+    },
+    {
+      "id": 61,
+      "name": "Picadillo",
+      "description": "Carne molida con verduras, ideal para rellenos",
+      "category": "mexicana",
+      "ingredients": [16, 14, 13, 1, 2],
+      "steps": [
+        "Picar papas, zanahorias y tomate en cubos pequeños",
+        "Sofreír cebolla picada hasta transparente",
+        "Agregar carne molida y cocinar hasta cambiar de color",
+        "Incorporar papas y zanahorias, cocinar 10 minutos",
+        "Añadir tomate picado y cocinar 5 minutos más",
+        "Sazonar con sal y especias al gusto",
+        "Usar para chiles rellenos, tacos o como plato fuerte"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/picadillo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 62,
+      "name": "Albóndigas",
+      "description": "Albóndigas de carne en caldo de tomate",
+      "category": "sopas",
+      "ingredients": [16, 5, 1, 2],
+      "steps": [
+        "Mezclar carne molida con arroz crudo y especias",
+        "Formar albóndigas del tamaño deseado",
+        "Preparar caldo: licuar tomate con cebolla",
+        "Cocinar el caldo 10 minutos",
+        "Agregar albóndigas cuidadosamente al caldo hirviendo",
+        "Cocinar 25-30 minutos hasta que el arroz esté cocido",
+        "Servir caliente con cilantro y limón"
+      ],
+      "prepTime": 45,
+      "difficulty": "medio",
+      "image": "/images/recipes/albondegas.jpg",
+      "servings": 4
+    },
+    {
+      "id": 63,
+      "name": "Carne Molida con Papas",
+      "description": "Guiso sencillo de carne molida con papas",
+      "category": "mexicana",
+      "ingredients": [16, 14, 2, 1],
+      "steps": [
+        "Pelar y cortar papas en cubos pequeños",
+        "Picar cebolla y tomate",
+        "Sofreír cebolla hasta transparente",
+        "Agregar carne molida y cocinar hasta dorar",
+        "Incorporar tomate picado y cocinar 5 minutos",
+        "Añadir papas y agua suficiente para cocinar",
+        "Cocinar 20 minutos hasta papas tiernas"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/carne-molida-papas.jpg",
+      "servings": 4
+    },
+    {
+      "id": 64,
+      "name": "Chuletas en Salsa Verde",
+      "description": "Chuletas de cerdo en salsa verde",
+      "category": "mexicana",
+      "ingredients": [96, 19, 112],
+      "steps": [
+        "Sazonar las chuletas con sal",
+        "Sellar las chuletas en sartén por ambos lados",
+        "Licuar tomate verde con chile serrano",
+        "Verter la salsa sobre las chuletas",
+        "Cocinar a fuego bajo 20 minutos",
+        "Dar vuelta a las chuletas a la mitad de la cocción",
+        "Servir con arroz y frijoles"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/chuletas-salsa-verde.jpg",
+      "servings": 4
+    },
+    {
+      "id": 65,
+      "name": "Carne en su Jugo",
+      "description": "Plato típico de Guadalajara con carne y frijoles",
+      "category": "mexicana",
+      "ingredients": [97, 99, 6, 32],
+      "steps": [
+        "Cortar la carne en trozos muy pequeños",
+        "Cortar tocino en cuadritos",
+        "Dorar el tocino en una cazuela",
+        "Agregar la carne y sellar por todos lados",
+        "Incorporar frijoles de la olla con su caldo",
+        "Cocinar 25 minutos a fuego bajo",
+        "Servir con cilantro picado y cebolla"
+      ],
+      "prepTime": 40,
+      "difficulty": "medio",
+      "image": "/images/recipes/carne-en-su-jugo.jpg",
+      "servings": 4
+    }, 
+    {
+      "id": 66,
+      "name": "Nachos Caseros",
+      "description": "Totopos crujientes con frijoles, queso derretido y jalapeños",
+      "category": "botanas",
+      "ingredients": [146, 121, 8, 111],
+      "steps": [
+        "Precalentar el horno a 180°C",
+        "Colocar una capa de totopos en una bandeja para horno",
+        "Distribuir frijoles refritos sobre los totopos",
+        "Espolvorear generosamente con queso rallado",
+        "Agregar rodajas de jalapeño al gusto",
+        "Hornear 8-10 minutos hasta que el queso se derrita",
+        "Servir inmediatamente con crema agria y guacamole"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/nachos-caseros.jpg",
+      "servings": 3
+    },
+    {
+      "id": 67,
+      "name": "Flautas de Pollo",
+      "description": "Tortillas enrolladas con pollo, fritas hasta crujientes",
+      "category": "botanas",
+      "ingredients": [9, 4, 20, 8],
+      "steps": [
+        "Cocer y deshebrar el pollo",
+        "Calentar tortillas para que sean flexibles",
+        "Rellenar tortillas con pollo deshebrado",
+        "Enrollar firmemente formando flautas",
+        "Sostener con palillo si es necesario",
+        "Freír en aceite caliente hasta dorar y crujir",
+        "Servir con crema, lechuga, queso y salsa"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/flautas-pollo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 68,
+      "name": "Aguachile",
+      "description": "Camarones marinados en limón con chile y verduras frescas",
+      "category": "pescados-mariscos",
+      "ingredients": [91, 11, 112, 85, 2],
+      "steps": [
+        "Pelar y desvenar los camarones",
+        "Cortar los camarones por la mitad a lo largo",
+        "Exprimirlimones hasta obtener el jugo necesario",
+        "Picar chile serrano finamente (al gusto)",
+        "Mezclar camarones con jugo de limón y chile",
+        "Refrigerar 15 minutos (no más para que no se cocinen demasiado)",
+        "Servir con rebanadas de pepino y cebolla morada"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/aguachile.jpg",
+      "servings": 3
+    },
+    {
+      "id": 69,
+      "name": "Ceviche Mexicano",
+      "description": "Pescado marinado en limón con verduras frescas",
+      "category": "pescados-mariscos",
+      "ingredients": [17, 11, 1, 2, 32],
+      "steps": [
+        "Cortar el pescado en cubos pequeños",
+        "Colocar en un bowl de vidrio o plástico",
+        "Cubrir completamente con jugo de limón fresco",
+        "Refrigerar 30-40 minutos hasta que el pescado se vuelva opaco",
+        "Escurrir el exceso de limón",
+        "Mezclar con tomate, cebolla y cilantro picados",
+        "Servir con tostadas o galletas saladas"
+      ],
+      "prepTime": 50,
+      "difficulty": "fácil",
+      "image": "/images/recipes/ceviche-mexicano.jpg",
+      "servings": 4
+    },
+    {
+      "id": 70,
+      "name": "Pescado Empanizado",
+      "description": "Filetes de pescado empanizados y dorados",
+      "category": "pescados-mariscos",
+      "ingredients": [17, 135, 7, 28],
+      "steps": [
+        "Sazonar los filetes de pescado con sal y pimienta",
+        "Batir los huevos en un plato hondo",
+        "Colocar pan molido en otro plato",
+        "Pasar los filetes por huevo batido",
+        "Cubrir completamente con pan molido",
+        "Freír en aceite caliente hasta dorar por ambos lados",
+        "Servir con ensalada y limón"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/pescado-empanizado.jpg",
+      "servings": 3
+    },
+    {
+      "id": 71,
+      "name": "Mojarra Frita",
+      "description": "Pescado entero frito crujiente con ajo",
+      "category": "pescados-mariscos",
+      "ingredients": [17, 3, 30, 28],
+      "steps": [
+        "Limpiar y escamar la mojarra",
+        "Hacer cortes diagonales en ambos lados del pescado",
+        "Frotar con ajo machacado y sal",
+        "Dejar marinar 15 minutos",
+        "Calentar abundante aceite en sartén grande",
+        "Freír el pescado 6-8 minutos por cada lado hasta dorar",
+        "Servir con arroz, ensalada y salsas"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/mojarra-frita.jpg",
+      "servings": 2
+    },
+    {
+      "id": 72,
+      "name": "Camarones al Mojo de Ajo",
+      "description": "Camarones salteados en mantequilla con ajo",
+      "category": "pescados-mariscos",
+      "ingredients": [91, 27, 3],
+      "steps": [
+        "Pelar y desvenar los camarones",
+        "Picar el ajo finamente",
+        "Derretir mantequilla en un sartén grande",
+        "Sofreír el ajo 1 minuto sin dorar",
+        "Agregar los camarones y saltear 3-4 minutos",
+        "Cocinar hasta que los camarones se vuelvan rosados",
+        "Servir inmediatamente con arroz y vegetales"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/camaron-mojo-ajo.jpg",
+      "servings": 3
+    },
+    {
+      "id": 73,
+      "name": "Camarones a la Diabla",
+      "description": "Camarones en salsa picante de chiles",
+      "category": "pescados-mariscos",
+      "ingredients": [91, 12, 3, 27],
+      "steps": [
+        "Pelar y desvenar los camarones",
+        "Licuar chiles con ajo y un poco de agua",
+        "Derretir mantequilla en sartén",
+        "Agregar la salsa y cocinar 5 minutos",
+        "Incorporar los camarones",
+        "Cocinar 4-5 minutos hasta que cambien de color",
+        "Servir con arroz blanco para contrarrestar el picante"
+      ],
+      "prepTime": 20,
+      "difficulty": "medio",
+      "image": "/images/recipes/camaron-diabla.jpg",
+      "servings": 3
+    },
+    {
+      "id": 74,
+      "name": "Papas a la Mexicana",
+      "description": "Papas guisadas con tomate, cebolla y chile",
+      "category": "guarniciones",
+      "ingredients": [14, 1, 2, 12],
+      "steps": [
+        "Pelar y cortar papas en cubos",
+        "Picar tomate, cebolla y chile",
+        "Sofreír cebolla y chile hasta transparentes",
+        "Agregar tomate y cocinar 3 minutos",
+        "Incorporar las papas y mezclar bien",
+        "Añadir agua hasta casi cubrir las papas",
+        "Cocinar 20 minutos hasta papas tiernas"
+      ],
+      "prepTime": 30,
+      "difficulty": "fácil",
+      "image": "/images/recipes/papas-mexicana.jpg",
+      "servings": 4
+    },
+    {
+      "id": 75,
+      "name": "Papas con Chile Guajillo",
+      "description": "Papas en salsa suave de chile guajillo",
+      "category": "guarniciones",
+      "ingredients": [14, 110, 3],
+      "steps": [
+        "Cocer las papas hasta tiernas pero firmes",
+        "Pelar y cortar en cubos grandes",
+        "Remojar chiles guajillo en agua caliente 15 minutos",
+        "Licuar chiles con ajo y un poco de agua de remojo",
+        "Colar la salsa para eliminar pieles",
+        "Cocinar la salsa 10 minutos",
+        "Agregar las papas y calentar 5 minutos más"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/papas-chile-guajillo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 76,
+      "name": "Elotes Cocidos",
+      "description": "Elotes cocidos con mantequilla y sal, simple y delicioso",
+      "category": "botanas",
+      "ingredients": [21, 30, 27],
+      "steps": [
+        "Lavar bien los elotes con todo y hoja",
+        "En una olla grande, hervir agua con sal",
+        "Agregar los elotes y cocinar 25-30 minutos",
+        "Verificar que estén tiernos pinchando con un tenedor",
+        "Retirar del agua y escurrir",
+        "Pelar y untar con mantequilla derretida",
+        "Espolvorear con sal y servir calientes"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/elotes-cocidos.jpg",
+      "servings": 4
+    },
+    {
+      "id": 77,
+      "name": "Esquites",
+      "description": "Elote desgranado con mayonesa, queso y chile en polvo",
+      "category": "botanas",
+      "ingredients": [21, 55, 8, 57],
+      "steps": [
+        "Cocer los elotes hasta que estén tiernos",
+        "Dejar enfriar y desgranar los elotes",
+        "Calentar los granos de elote en un sartén",
+        "Servir en vasitos o platos individuales",
+        "Agregar una cucharada de mayonesa a cada porción",
+        "Espolvorear con queso cotija rallado",
+        "Añadir chile en polvo al gusto y limón"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/esquites.jpg",
+      "servings": 4
+    },
+    {
+      "id": 78,
+      "name": "Ensalada de Nopales",
+      "description": "Ensalada fresca de nopales con verduras y queso",
+      "category": "ensaladas",
+      "ingredients": [132, 1, 2, 8],
+      "steps": [
+        "Limpiar los nopales retirando espinas",
+        "Cortar en tiras o cuadros pequeños",
+        "Cocinar los nopales en agua con sal 15 minutos",
+        "Escurrir y enjuagar con agua fría",
+        "Picar tomate y cebolla en cubos pequeños",
+        "Mezclar nopales con tomate y cebolla",
+        "Agregar queso fresco desmenuzado y cilantro"
+      ],
+      "prepTime": 30,
+      "difficulty": "fácil",
+      "image": "/images/recipes/ensalada-nopales.jpg",
+      "servings": 4
+    },
+    {
+      "id": 79,
+      "name": "Nopales Guisados",
+      "description": "Nopales guisados con tomate, cebolla y chile",
+      "category": "guarniciones",
+      "ingredients": [132, 1, 2, 12],
+      "steps": [
+        "Limpiar y cortar nopales en cuadros",
+        "Cocinar nopales en agua 10 minutos",
+        "Escurrir y reservar",
+        "Picar tomate, cebolla y chile",
+        "Sofreír cebolla y chile hasta transparentes",
+        "Agregar tomate y cocinar 5 minutos",
+        "Incorporar nopales y guisar 10 minutos más"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/nopales-guisados.jpg",
+      "servings": 4
+    },
+    {
+      "id": 80,
+      "name": "Calabacitas con Elote",
+      "description": "Guiso de calabacitas con granos de elote",
+      "category": "vegetariana",
+      "ingredients": [102, 21, 1, 2],
+      "steps": [
+        "Lavar y cortar calabacitas en cubos",
+        "Desgranar elotes cocidos",
+        "Picar tomate y cebolla",
+        "Sofreír cebolla hasta transparente",
+        "Agregar tomate y cocinar 3 minutos",
+        "Incorporar calabacitas y elote",
+        "Cocinar 15 minutos hasta calabacitas tiernas"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/calabacitas-elote.jpg",
+      "servings": 4
+    },
+    {
+      "id": 81,
+      "name": "Tortitas de Papa",
+      "description": "Croquetas de papa empanizadas y fritas",
+      "category": "vegetariana",
+      "ingredients": [14, 7, 135],
+      "steps": [
+        "Cocer papas hasta muy tiernas",
+        "Machacar las papas formando un puré",
+        "Dejar enfriar el puré completamente",
+        "Formar tortitas con las manos",
+        "Pasar por huevo batido",
+        "Cubrir con pan molido",
+        "Freír en aceite caliente hasta dorar por ambos lados"
+      ],
+      "prepTime": 40,
+      "difficulty": "medio",
+      "image": "/images/recipes/tortitas-papa.jpg",
+      "servings": 4
+    },
+    {
+      "id": 82,
+      "name": "Tortitas de Atún",
+      "description": "Croquetas de atún con cebolla y pan molido",
+      "category": "pescados-mariscos",
+      "ingredients": [94, 7, 135, 2],
+      "steps": [
+        "Escurrir bien el atún enlatado",
+        "Picar cebolla finamente",
+        "Mezclar atún, cebolla y huevo batido",
+        "Agregar pan molido hasta obtener consistencia moldeable",
+        "Formar tortitas con las manos",
+        "Rebozar en más pan molido si se desea",
+        "Freír en aceite caliente hasta dorar"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/tortitas-atun.jpg",
+      "servings": 3
+    },
+    {
+      "id": 83,
+      "name": "Tortitas de Camarón",
+      "description": "Tortitas de camarón seco con chile",
+      "category": "pescados-mariscos",
+      "ingredients": [91, 7, 12],
+      "steps": [
+        "Remojar camarón seco en agua 15 minutos",
+        "Escurrir y moler o picar finamente",
+        "Batir huevos ligeramente",
+        "Mezclar camarón con huevo batido",
+        "Agregar chile picado al gusto",
+        "Formar tortitas pequeñas",
+        "Freír en aceite caliente hasta dorar"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/tortitas-camaron.jpg",
+      "servings": 3
+    },
+    {
+      "id": 84,
+      "name": "Chiles Toreados",
+      "description": "Chiles jalapeños salteados con cebolla y salsa de soya",
+      "category": "guarniciones",
+      "ingredients": [111, 2, 28, 52],
+      "steps": [
+        "Lavar los chiles jalapeños",
+        "Cortar chiles en rajas sin desvenar completamente",
+        "Cortar cebolla en tiras gruesas",
+        "Calentar aceite en un sartén a fuego medio-alto",
+        "Saltear chiles y cebolla 5-7 minutos",
+        "Agregar salsa de soya al gusto",
+        "Cocinar 2 minutos más y servir como botana o guarnición"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/chiles-toreados.jpg",
+      "servings": 3
+    },
+    {
+      "id": 85,
+      "name": "Salsa Roja Casera",
+      "description": "Salsa roja tradicional de tomate y chile",
+      "category": "salsas",
+      "ingredients": [1, 12, 3, 30],
+      "steps": [
+        "Lavar tomates y chiles",
+        "Asar tomates, chiles y ajo en comal",
+        "Voltear hasta que se doren por todos lados",
+        "Licuar todos los ingredientes",
+        "Colar si se prefiere textura más suave",
+        "Cocinar la salsa 10 minutos para integrar sabores",
+        "Enfriar y servir con tus platillos favoritos"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/salsa-roja.jpg",
+      "servings": 6
+    },
+    {
+      "id": 86,
+      "name": "Salsa Verde Casera",
+      "description": "Salsa verde fresca de tomate verde y chile serrano",
+      "category": "salsas",
+      "ingredients": [19, 112, 3],
+      "steps": [
+        "Lavar los tomates verdes y chiles serranos",
+        "Hervir en agua por 10 minutos hasta que se ablanden",
+        "Escurrir y dejar enfriar ligeramente",
+        "Licuar con ajo y un poco de agua de cocción",
+        "Colar para una textura más suave si se prefiere",
+        "Sazonar con sal al gusto",
+        "Refrigerar y servir fría con tacos o antojitos"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/salsa-verde.jpg",
+      "servings": 6
+    },
+    {
+      "id": 87,
+      "name": "Guacamole Básico",
+      "description": "Guacamole simple con aguacate, limón y sal",
+      "category": "salsas",
+      "ingredients": [10, 11, 30],
+      "steps": [
+        "Cortar los aguacates por la mitad y retirar el hueso",
+        "Sacar la pulpa con una cuchara",
+        "Machacar con un tenedor hasta la textura deseada",
+        "Exprimir limón fresco inmediatamente para evitar oxidación",
+        "Sazonar con sal al gusto",
+        "Mezclar suavemente",
+        "Servir inmediatamente con totopos"
+      ],
+      "prepTime": 10,
+      "difficulty": "fácil",
+      "image": "/images/recipes/guacamole-basico.jpg",
+      "servings": 3
+    },
+    {
+      "id": 88,
+      "name": "Guacamole Completo",
+      "description": "Guacamole con todos los ingredientes tradicionales",
+      "category": "salsas",
+      "ingredients": [10, 1, 2, 12, 11, 32],
+      "steps": [
+        "Cortar aguacates y sacar la pulpa",
+        "Machacar ligeramente dejando algunos trozos",
+        "Picar finamente tomate, cebolla, chile y cilantro",
+        "Mezclar todos los ingredientes con el aguacate",
+        "Exprimir limón fresco por encima",
+        "Sazonar con sal y mezclar suavemente",
+        "Refrigerar 15 minutos antes de servir para integrar sabores"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/guacamole-completo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 89,
+      "name": "Pico de Gallo",
+      "description": "Salsa fresca mexicana de tomate, cebolla y cilantro",
+      "category": "salsas",
+      "ingredients": [1, 2, 32, 12, 11],
+      "steps": [
+        "Lavar y picar el tomate en cubos pequeños",
+        "Picar la cebolla finamente",
+        "Picar cilantro al gusto",
+        "Picar chile serrano o jalapeño (opcional)",
+        "Mezclar todos los ingredientes en un bowl",
+        "Exprimir limón fresco por encima",
+        "Sazonar con sal y refrigerar 30 minutos antes de servir"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/pico-gallo.jpg",
+      "servings": 4
+    },
+    {
+      "id": 90,
+      "name": "Carne con Chile Colorado",
+      "description": "Carne de cerdo en salsa de chile colorado",
+      "category": "mexicana",
+      "ingredients": [96, 109, 3],
+      "steps": [
+        "Cortar la carne de cerdo en cubos",
+        "Sellar la carne en aceite caliente",
+        "Remojar chiles colorados en agua caliente 20 minutos",
+        "Licuar chiles con ajo y un poco de agua de remojo",
+        "Colar la salsa para eliminar pieles y semillas",
+        "Verter la salsa sobre la carne sellada",
+        "Cocinar 1.5 horas a fuego bajo hasta carne tierna"
+      ],
+      "prepTime": 120,
+      "difficulty": "medio",
+      "image": "/images/recipes/carne-chile-colorado.jpg",
+      "servings": 4
+    },
+    {
+      "id": 91,
+      "name": "Rajas con Crema",
+      "description": "Rajas de chile poblano con crema y elote",
+      "category": "vegetariana",
+      "ingredients": [15, 20, 21],
+      "steps": [
+        "Asar chiles poblanos hasta que la piel se suelte",
+        "Envolver en bolsa de plástico 10 minutos",
+        "Pelar chiles y cortar en rajas (tiras)",
+        "Retirar venas y semillas si se desea menos picante",
+        "Desgranar elotes cocidos",
+        "En un sartén, calentar la crema",
+        "Agregar rajas y elote, cocinar 10 minutos a fuego bajo"
+      ],
+      "prepTime": 30,
+      "difficulty": "fácil",
+      "image": "/images/recipes/rajas-crema.jpg",
+      "servings": 4
+    },
+    {
+      "id": 92,
+      "name": "Torta de Jamón",
+      "description": "Torta clásica de jamón con aguacate y jitomate",
+      "category": "sandwiches",
+      "ingredients": [133, 100, 127, 10],
+      "steps": [
+        "Partir el pan bolillo por la mitad sin separar completamente",
+        "Tostar ligeramente el pan si se desea",
+        "Untar mayonesa o frijoles en el pan",
+        "Colocar rebanadas de jamón",
+        "Agregar rebanadas de jitomate",
+        "Acomodar rebanadas de aguacate",
+        "Cerrar la torta y servir inmediatamente"
+      ],
+      "prepTime": 10,
+      "difficulty": "fácil",
+      "image": "/images/recipes/torta-jamon.jpg",
+      "servings": 1
+    },
+    {
+      "id": 93,
+      "name": "Torta de Milanesa",
+      "description": "Torta con milanesa de res o pollo empanizada",
+      "category": "sandwiches",
+      "ingredients": [133, 130, 18, 1],
+      "steps": [
+        "Freír la milanesa hasta dorar por ambos lados",
+        "Partir el pan bolillo y tostar ligeramente",
+        "Untar mayonesa y/o frijoles refritos",
+        "Colocar la milanesa caliente en el pan",
+        "Agregar lechuga picada",
+        "Acomodar rebanadas de tomate",
+        "Cerrar y presionar ligeramente para unir sabores"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/torta-milanesa.jpg",
+      "servings": 1
+    },
+    {
+      "id": 94,
+      "name": "Torta Ahogada",
+      "description": "Torta típica de Guadalajara bañada en salsa roja",
+      "category": "sandwiches",
+      "ingredients": [134, 96, 142],
+      "steps": [
+        "Preparar carnitas de cerdo o usar sobras de asado",
+        "Calentar abundantemente salsa roja",
+        "Partir el pan telera por la mitad",
+        "Rellenar generosamente con la carne",
+        "Sumergir completamente la torta en salsa roja caliente",
+        "Escurrir ligeramente y colocar en plato",
+        "Servir con cebolla encurtida y limón"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/torta-ahogada.jpg",
+      "servings": 1
+    },
+    {
+      "id": 95,
+      "name": "Chicharrón en Salsa Verde",
+      "description": "Chicharrón cocido en salsa verde hasta ablandar",
+      "category": "mexicana",
+      "ingredients": [116, 19, 112],
+      "steps": [
+        "Preparar salsa verde licuando tomate verde con chile",
+        "Cocinar la salsa 10 minutos",
+        "Agregar el chicharrón prensado a la salsa",
+        "Cocinar a fuego bajo 15-20 minutos",
+        "Revolver ocasionalmente",
+        "Verificar que el chicharrón esté suave pero no deshecho",
+        "Servir con frijoles y tortillas calientes"
+      ],
+      "prepTime": 30,
+      "difficulty": "fácil",
+      "image": "/images/recipes/chicharron-salsa-verde.jpg",
+      "servings": 4
+    },
+    {
+      "id": 96,
+      "name": "Chicharrón en Salsa Roja",
+      "description": "Chicharrón cocido en salsa roja de chile guajillo",
+      "category": "mexicana",
+      "ingredients": [116, 1, 110],
+      "steps": [
+        "Remojar chiles guajillo en agua caliente 20 minutos",
+        "Licuar chiles con tomate y un poco de agua de remojo",
+        "Colar la salsa para una textura suave",
+        "Cocinar la salsa 10 minutos hasta espesar ligeramente",
+        "Agregar el chicharrón prensado a la salsa caliente",
+        "Cocinar a fuego bajo 15 minutos revolviendo ocasionalmente",
+        "Servir cuando el chicharrón esté suave pero con textura"
+      ],
+      "prepTime": 35,
+      "difficulty": "fácil",
+      "image": "/images/recipes/chicharron-salsa-roja.jpg",
+      "servings": 4
+    },
+    {
+      "id": 97,
+      "name": "Huevos con Jamón",
+      "description": "Huevos revueltos con jamón en cuadros",
+      "category": "desayuno",
+      "ingredients": [7, 100, 28],
+      "steps": [
+        "Cortar el jamón en cuadros pequeños",
+        "Calentar un sartén con aceite a fuego medio",
+        "Agregar el jamón y sofreír 2-3 minutos",
+        "Batir los huevos en un bowl",
+        "Verter los huevos sobre el jamón",
+        "Revolver constantemente hasta que los huevos estén cocidos",
+        "Servir caliente con tortillas o pan tostado"
+      ],
+      "prepTime": 10,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevos-jamon.jpg",
+      "servings": 2
+    },
+    {
+      "id": 98,
+      "name": "Huevos Rancheros",
+      "description": "Huevos fritos sobre tortilla bañados en salsa roja",
+      "category": "desayuno",
+      "ingredients": [7, 142, 9],
+      "steps": [
+        "Calentar salsa roja en un sartén",
+        "En otro sartén, freír las tortillas ligeramente",
+        "Freír los huevos al gusto (preferiblemente estrellados)",
+        "Colocar una tortilla frita en cada plato",
+        "Poner un huevo frito sobre cada tortilla",
+        "Bañar generosamente con salsa roja caliente",
+        "Servir inmediatamente con frijoles refritos"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevos-rancheros.jpg",
+      "servings": 2
+    },
+    {
+      "id": 99,
+      "name": "Huevos con Salchicha",
+      "description": "Huevos revueltos con salchicha picada",
+      "category": "desayuno",
+      "ingredients": [7, 144, 28],
+      "steps": [
+        "Quitar la piel de las salchichas si es necesario",
+        "Picar las salchichas en rodajas o cuadros",
+        "Calentar aceite en un sartén a fuego medio",
+        "Dorar las salchichas por 4-5 minutos",
+        "Batir los huevos y verter sobre las salchichas",
+        "Revolver constantemente hasta que los huevos estén cocidos",
+        "Servir con frijoles y tortillas calientes"
+      ],
+      "prepTime": 12,
+      "difficulty": "fácil",
+      "image": "/images/recipes/huevos-salchicha.jpg",
+      "servings": 2
+    },
+    {
+      "id": 100,
+      "name": "Avena con Leche",
+      "description": "Avena cocida con leche y endulzada al gusto",
+      "category": "desayuno",
+      "ingredients": [124, 26, 36],
+      "steps": [
+        "En una olla, mezclar la avena con la leche",
+        "Llevar a fuego medio revolviendo constantemente",
+        "Cocinar por 8-10 minutos hasta que espese",
+        "Agregar azúcar al gusto",
+        "Revolver bien para disolver el azúcar",
+        "Servir caliente en tazones",
+        "Puede acompañarse con fruta o canela"
+      ],
+      "prepTime": 12,
+      "difficulty": "fácil",
+      "image": "/images/recipes/avena-leche.jpg",
+      "servings": 2
+    },
+    {
+      "id": 101,
+      "name": "Hotcakes Caseros",
+      "description": "Hotcakes esponjosos hechos en casa",
+      "category": "desayuno",
+      "ingredients": [122, 26, 7, 36],
+      "steps": [
+        "En un bowl, mezclar la harina para hotcakes",
+        "Agregar leche, huevos y azúcar",
+        "Batir hasta obtener una masa suave sin grumos",
+        "Dejar reposar la masa 5 minutos",
+        "Calentar un sartén a fuego medio con mantequilla",
+        "Verter porciones de masa y cocinar hasta que burbujee",
+        "Voltear y dorar por el otro lado 1-2 minutos"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/hotcakes-caseros.jpg",
+      "servings": 3
+    },
+    {
+      "id": 102,
+      "name": "Empanadas de Atún",
+      "description": "Empanadas rellenas de atún con verduras",
+      "category": "botanas",
+      "ingredients": [129, 94, 1, 2],
+      "steps": [
+        "Preparar la masa de maíz o usar masa preparada",
+        "Escurrir bien el atún enlatado",
+        "Picar tomate y cebolla finamente",
+        "Mezclar atún con tomate y cebolla",
+        "Formar tortillas con la masa",
+        "Rellenar con la mezcla de atún y doblar sellando bordes",
+        "Freír en aceite caliente hasta dorar por ambos lados"
+      ],
+      "prepTime": 30,
+      "difficulty": "medio",
+      "image": "/images/recipes/empanadas-atun.jpg",
+      "servings": 4
+    },
+    {
+      "id": 103,
+      "name": "Empanadas de Queso",
+      "description": "Empanadas rellenas de queso derretido",
+      "category": "botanas",
+      "ingredients": [129, 8],
+      "steps": [
+        "Preparar bolitas con la masa de maíz",
+        "Aplanar formando tortillas pequeñas",
+        "Colocar queso rallado o en trozos en el centro",
+        "Doblar la masa sobre el relleno formando media luna",
+        "Sellar los bordes presionando con los dedos",
+        "Freír en aceite caliente hasta dorar",
+        "Servir calientes con salsa al gusto"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/empanadas-queso.jpg",
+      "servings": 4
+    },
+    {
+      "id": 104,
+      "name": "Pollo Adobado",
+      "description": "Pollo marinado en adobo de chile ancho",
+      "category": "mexicana",
+      "ingredients": [4, 107, 3, 29],
+      "steps": [
+        "Remojar chiles anchos en agua caliente 20 minutos",
+        "Licuar chiles con ajo, vinagre y especias",
+        "Colar la salsa para un adobo suave",
+        "Cubrir el pollo con el adobo y marinar 2 horas mínimo",
+        "Asar el pollo en comal o parrilla 8-10 minutos por lado",
+        "O hornear a 180°C por 35-40 minutos",
+        "Servir con arroz y ensalada"
+      ],
+      "prepTime": 150,
+      "difficulty": "medio",
+      "image": "/images/recipes/pollo-adobado.jpg",
+      "servings": 4
+    },
+    {
+      "id": 105,
+      "name": "Lomo en Salsa de Piña",
+      "description": "Lomo de cerdo en salsa agridulce de piña",
+      "category": "mexicana",
+      "ingredients": [96, 76, 2],
+      "steps": [
+        "Cortar el lomo de cerdo en medallones",
+        "Sellar la carne en aceite caliente por ambos lados",
+        "Picar cebolla en juliana",
+        "Cortar piña en trozos pequeños",
+        "Agregar cebolla a la carne y sofreír 3 minutos",
+        "Incorporar la piña y cocinar 5 minutos más",
+        "Servir con la salsa que se forma naturalmente"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/lomo-salsa-pina.jpg",
+      "servings": 3
+    },
+    {
+      "id": 106,
+      "name": "Carne con Verduras",
+      "description": "Guiso de carne con zanahoria, papa y calabaza",
+      "category": "mexicana",
+      "ingredients": [97, 13, 14, 22],
+      "steps": [
+        "Cortar la carne en cubos y salpimentar",
+        "Sellar la carne en aceite caliente por todos lados",
+        "Pelar y cortar zanahorias en rodajas",
+        "Pelar y cortar papas en cubos grandes",
+        "Cortar calabaza en trozos",
+        "Agregar todas las verduras a la carne",
+        "Cocinar a fuego bajo 1.5 horas hasta carne tierna"
+      ],
+      "prepTime": 105,
+      "difficulty": "fácil",
+      "image": "/images/recipes/carne-verduras.jpg",
+      "servings": 4
+    },
+    {
+      "id": 107,
+      "name": "Enfrijoladas",
+      "description": "Tortillas bañadas en frijol con crema y queso",
+      "category": "mexicana",
+      "ingredients": [9, 121, 20, 8],
+      "steps": [
+        "Calentar los frijoles refritos con un poco de agua",
+        "Batir los frijoles hasta obtener una consistencia de salsa",
+        "Pasar las tortillas rápidamente por la salsa de frijol",
+        "Doblar las tortillas en forma de enchilada",
+        "Colocar en plato y bañar con más salsa",
+        "Decorar con crema y queso espolvoreado",
+        "Servir con cebolla en rodajas"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/enfrijoladas.jpg",
+      "servings": 3
+    },
+    {
+      "id": 108,
+      "name": "Entomatadas",
+      "description": "Tortillas bañadas en salsa de tomate con queso",
+      "category": "mexicana",
+      "ingredients": [9, 1, 8],
+      "steps": [
+        "Licuar tomates con un poco de agua y sal",
+        "Cocinar la salsa 10 minutos hasta espesar ligeramente",
+        "Pasar tortillas rápidamente por la salsa caliente",
+        "Doblar tortillas y colocar en plato",
+        "Bañar con más salsa de tomate",
+        "Espolvorear con queso fresco desmenuzado",
+        "Servir inmediatamente con crema si se desea"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/entomatadas.jpg",
+      "servings": 3
+    },
+    {
+      "id": 109,
+      "name": "Sándwich de Jamón",
+      "description": "Sándwich clásico de jamón y queso",
+      "category": "sandwiches",
+      "ingredients": [25, 100, 8, 55],
+      "steps": [
+        "Tostar el pan ligeramente si se prefiere",
+        "Untar mayonesa en ambas rebanadas de pan",
+        "Colocar rebanadas de jamón",
+        "Agregar rebanadas de queso",
+        "Cerrar el sándwich y presionar ligeramente",
+        "Puede calentarse en sartén para derretir el queso",
+        "Cortar en diagonal y servir"
+      ],
+      "prepTime": 8,
+      "difficulty": "fácil",
+      "image": "/images/recipes/sandwich-jamon.jpg",
+      "servings": 1
+    },
+    {
+      "id": 110,
+      "name": "Fideo Seco",
+      "description": "Fideo dorado con salsa de tomate y chipotle",
+      "category": "mexicana",
+      "ingredients": [24, 1, 108],
+      "steps": [
+        "Dorar el fideo en aceite hasta golden",
+        "Licuar tomate con chipotle al gusto",
+        "Agregar la salsa al fideo dorado",
+        "Cocinar 2 minutos revolviendo",
+        "Añadir agua caliente justo para cubrir el fideo",
+        "Cocinar a fuego bajo hasta que seque completamente",
+        "Servir cuando el fideo esté seco y suelto"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/fideo-seco.jpg",
+      "servings": 3
+    },
+    {
+      "id": 111,
+      "name": "Pozol Tabasqueño",
+      "description": "Bebida tradicional de maíz y cacao de Tabasco",
+      "category": "bebidas",
+      "ingredients": [5, 70, 147],
+      "steps": [
+        "Cocer el maíz hasta muy tierno (2-3 horas)",
+        "Moler el maíz cocido con el cacao",
+        "Diluir la masa con agua fría",
+        "Batir vigorosamente hasta espumoso",
+        "Endulzar al gusto con azúcar o miel",
+        "Servir bien frío en vaso alto",
+        "Tradicionalmente se toma sin endulzar"
+      ],
+      "prepTime": 200,
+      "difficulty": "medio",
+      "image": "/images/recipes/pozol-tabasqueno.jpg",
+      "servings": 4
+    },
+    {
+      "id": 112,
+      "name": "Arepas Venezolanas",
+      "description": "Arepas de harina de maíz precocida",
+      "category": "latina",
+      "ingredients": [123, 147, 30],
+      "steps": [
+        "Mezclar harina de maíz con agua y sal",
+        "Amasar hasta obtener una masa suave y homogénea",
+        "Formar bolitas y aplanar en discos de 1-2 cm de grosor",
+        "Cocinar en budare o sartén a fuego medio",
+        "Dorar por ambos lados 5-7 minutos por lado",
+        "Hacer un corte y rellenar con tus ingredientes favoritos",
+        "Servir calientes"
+      ],
+      "prepTime": 25,
+      "difficulty": "fácil",
+      "image": "/images/recipes/arepas-venezolanas.jpg",
+      "servings": 4
+    },
+    {
+      "id": 113,
+      "name": "Patacones Colombianos",
+      "description": "Plátanos verdes fritos y aplanados",
+      "category": "latina",
+      "ingredients": [139, 28, 30],
+      "steps": [
+        "Pelar plátanos verdes",
+        "Cortar en trozos de 3-4 cm de grosor",
+        "Freír ligeramente por 3-4 minutos hasta suaves",
+        "Retirar y aplanar con un paño o prensa",
+        "Volver a freír hasta dorar y crujir",
+        "Escurrir en papel absorbente",
+        "Salar y servir como acompañamiento"
+      ],
+      "prepTime": 20,
+      "difficulty": "fácil",
+      "image": "/images/recipes/patacones-colombianos.jpg",
+      "servings": 3
+    },
+    {
+      "id": 114,
+      "name": "Plátanos Fritos",
+      "description": "Plátanos maduros fritos en aceite",
+      "category": "latina",
+      "ingredients": [35, 28],
+      "steps": [
+        "Pelar plátanos maduros",
+        "Cortar en rodajas de 1-2 cm de grosor",
+        "Calentar aceite en sartén a fuego medio",
+        "Freír las rodajas hasta dorar por ambos lados",
+        "Escurrir en papel absorbente",
+        "Servir calientes como acompañamiento",
+        "Pueden espolvorearse con azúcar si se desea dulce"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/platanos-fritos.jpg",
+      "servings": 3
+    },
+    {
+      "id": 115,
+      "name": "Espagueti Blanco",
+      "description": "Espagueti simple con mantequilla",
+      "category": "italiana",
+      "ingredients": [24, 27],
+      "steps": [
+        "Cocinar el espagueti en agua con sal al dente",
+        "Escurrir el espagueti reservando un poco de agua de cocción",
+        "Derretir mantequilla en un sartén grande",
+        "Agregar el espagueti escurrido a la mantequilla",
+        "Saltear 2-3 minutos revolviendo constantemente",
+        "Agregar un poco de agua de cocción si está muy seco",
+        "Servir inmediatamente con queso rallado si se desea"
+      ],
+      "prepTime": 15,
+      "difficulty": "fácil",
+      "image": "/images/recipes/espagueti-blanco.jpg",
+      "servings": 2
     }
   ]
 }
