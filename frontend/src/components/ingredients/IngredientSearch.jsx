@@ -5,6 +5,7 @@ import { useRecipes } from '../../hooks/useRecipes';
 import RecipeResults from '../recipes/RecipeResults';
 import RecipeModal from '../recipes/RecipeModal';
 import RecipeFilters from '../recipes/RecipeFilters';
+import AIChefChat from '../ai/AIChefChat';
 
 export default function IngredientSearch() {
   const {
@@ -17,19 +18,26 @@ export default function IngredientSearch() {
     getSelectedIngredientIds
   } = useIngredients();
 
-  // ✅ AGREGA updateFilters AQUÍ
   const { matchedRecipes, findMatchingRecipes, updateFilters } = useRecipes();
 
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [lastSearch, setLastSearch] = useState(''); // ✅ DECLARAR lastSearch
   const searchRef = useRef(null);
 
-  // Buscar recetas cuando cambien los ingredientes seleccionados
+  // ✅ SOLUCIÓN SEGURA: useEffect con todas las dependencias
   useEffect(() => {
     const selectedIds = getSelectedIngredientIds();
-    findMatchingRecipes(selectedIds);
-  }, [selectedIngredients, findMatchingRecipes, getSelectedIngredientIds]);
+    const currentSearch = JSON.stringify(selectedIds.sort());
+    
+    // Solo buscar si los ingredientes REALMENTE cambiaron
+    if (currentSearch !== lastSearch) {
+      console.log('🔄 Ingredientes cambiaron, buscando...');
+      findMatchingRecipes(selectedIds);
+      setLastSearch(currentSearch);
+    }
+  }, [selectedIngredients, findMatchingRecipes, getSelectedIngredientIds, lastSearch]); // ✅ TODAS las dependencias
 
   // Cerrar sugerencias al hacer click fuera
   useEffect(() => {
@@ -146,7 +154,7 @@ export default function IngredientSearch() {
         </div>
       )}
 
-      {/* ✅ FILTROS - AHORA SÍ FUNCIONA */}
+      {/* Filtros */}
       {matchedRecipes.length > 0 && (
         <RecipeFilters onFiltersChange={updateFilters} />
       )}
@@ -159,6 +167,13 @@ export default function IngredientSearch() {
           onRecipeClick={handleRecipeClick}
         />
       </div>
+
+      {/* Chef IA */}
+      {selectedIngredients.length > 0 && matchedRecipes.length < 3 && (
+        <AIChefChat 
+          availableIngredients={selectedIngredients.map(ing => ing.name)} 
+        />
+      )}
 
       {/* Modal de receta */}
       <RecipeModal
